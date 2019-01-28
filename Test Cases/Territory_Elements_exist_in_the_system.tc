@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Territory_Elements_exist_in_the_system</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>471fea3b-68c2-42ca-9398-50c7ca4546c8</testCaseGuid>
+   <variable>
+      <defaultValue>'Territory_demo'</defaultValue>
+      <description></description>
+      <id>8a494a9b-ceb2-4d6a-9872-04cf09c0c918</id>
+      <masked>false</masked>
+      <name>TerritoryElementName</name>
+   </variable>
+</TestCaseEntity>

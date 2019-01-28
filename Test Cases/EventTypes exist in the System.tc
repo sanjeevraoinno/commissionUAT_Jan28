@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EventTypes exist in the System</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>47cfceea-9c5d-4c69-8fca-369740ce8fd9</testCaseGuid>
+   <variable>
+      <defaultValue>'zsdsfsf dfdsfdfdfd'</defaultValue>
+      <description></description>
+      <id>4160e49b-0720-494b-8e43-02a9252ebabc</id>
+      <masked>false</masked>
+      <name>eventTypeName</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that the Fomulas exits in the system</description>
+   <name>Formulas exits in the system</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>22b9fcae-283e-4638-b847-2001427f7ce0</testCaseGuid>
+   <variable>
+      <defaultValue>'TEST_KAT'</defaultValue>
+      <description></description>
+      <id>c0a66b4d-7999-4ee9-8189-ba68069eff7b</id>
+      <masked>false</masked>
+      <name>Formulas</name>
+   </variable>
+</TestCaseEntity>

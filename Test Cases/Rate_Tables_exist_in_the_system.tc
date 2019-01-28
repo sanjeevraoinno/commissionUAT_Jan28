@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Rate_Tables_exist_in_the_system</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fbb3f737-1a55-436a-827e-91e7d77dc2d9</testCaseGuid>
+   <variable>
+      <defaultValue>'currt'</defaultValue>
+      <description></description>
+      <id>66f64c54-9083-410f-bd34-cafdd1b8bb15</id>
+      <masked>false</masked>
+      <name>Rate_table</name>
+   </variable>
+</TestCaseEntity>

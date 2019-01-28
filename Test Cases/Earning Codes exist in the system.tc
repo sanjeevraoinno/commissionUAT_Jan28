@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Earning Codes exist in the system</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>853dd73e-6119-4111-a3dc-32edb79aa787</testCaseGuid>
+   <variable>
+      <defaultValue>'Bonus'</defaultValue>
+      <description></description>
+      <id>4b3347e0-c28a-4478-a55d-5f4381a5f6fe</id>
+      <masked>false</masked>
+      <name>earningCodeName</name>
+   </variable>
+</TestCaseEntity>

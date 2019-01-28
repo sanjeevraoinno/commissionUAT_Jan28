@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_cald-ui-caret</name>
+   <tag></tag>
+   <elementGuidId>921d536c-a126-43d3-8826-a361f9a96e5f</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>cald-ui-caret</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;global-header&quot;)/header[@class=&quot;cald-ui-header&quot;]/span[@class=&quot;cald-ui-header__right&quot;]/span[@class=&quot;cald-ui-header__user&quot;]/span[@class=&quot;cald-ui-dropdown cald-ui-dropdown--clickable&quot;]/span[@class=&quot;cald-ui-caret&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

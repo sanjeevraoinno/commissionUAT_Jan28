@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Plans exist in the system</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e26a058b-0ce2-4e35-832e-a375441547c5</testCaseGuid>
+   <variable>
+      <defaultValue>'Auto_Plana872916'</defaultValue>
+      <description></description>
+      <id>cbf06720-c531-49ff-af01-8602cad7bd6a</id>
+      <masked>false</masked>
+      <name>PlanName</name>
+   </variable>
+</TestCaseEntity>

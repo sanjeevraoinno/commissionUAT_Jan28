@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="logs with fail and pass" time="276" tests="1" failures="1" errors="0">
+   <testsuite name="logs with fail and pass" tests="1" failures="1" errors="0" time="276" timestamp="2018-09-20 16:43:40" hostname="skadhulu - FS33WS1-E6330.callidussoftware.com" id="Test Suites/logs with fail and pass">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\skadhulu\\git\\CommissionUAT\\Reports\\logs with fail and pass\\20180920_164336"/>
+         <property name="logFiles" value="C:\\Users\\skadhulu\\git\\CommissionUAT\\Reports\\logs with fail and pass\\20180920_164336\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="skadhulu - FS33WS1-E6330.callidussoftware.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.7.0.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="10.102.200.111"/>
+         <property name="sessionId" value="ba39860b7b4d09bffb0703e37b2ef6a9"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Credit Rule exists in the system - Testing - Correct String" classname="Test Cases/Credit Rule exists in the system - Testing - Correct String" status="PASSED">
+         <system-out><![CDATA[2018-09-20 16:43:41 - [TEST_CASE][PASSED] - Test Cases/Credit Rule exists in the system - Testing - Correct String: Test Cases/Credit Rule exists in the system - Testing - Correct String
+
+2018-09-20 16:43:41 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-09-20 16:43:41 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-09-20 16:43:41 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-09-20 16:43:42 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2018-09-20 16:43:42 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2018-09-20 16:43:42 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2018-09-20 16:43:42 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2018-09-20 16:43:42 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Commission Login' successfully
+
+2018-09-20 16:43:42 - [TEST_CASE][PASSED] - Test Cases/Commission Login: Test Cases/Commission Login
+
+2018-09-20 16:43:42 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-20 16:43:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-20 16:43:51 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ca1-lvcomapp-int6.callidussoftware.com:444/SalesPortal/#!/' successfully
+
+2018-09-20 16:44:09 - [MESSAGE][PASSED] - Navigate to 'https://ca1-lvcomapp-int6.callidussoftware.com:444/SalesPortal/#!/' successfully
+
+2018-09-20 16:44:09 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-20 16:44:10 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-20 16:44:10 - [TEST_STEP][PASSED] - setText: Text 'PortalAdmin' is set on object 'Object Repository/Page_Sales Performance Home/input_username'
+
+2018-09-20 16:44:11 - [MESSAGE][PASSED] - Text 'PortalAdmin' is set on object 'Object Repository/Page_Sales Performance Home/input_username'
+
+2018-09-20 16:44:11 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-20 16:44:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-20 16:44:13 - [TEST_STEP][PASSED] - setText: Text 'PortalAdmin' is set on object 'Object Repository/Page_Sales Performance Home/input_password'
+
+2018-09-20 16:44:13 - [MESSAGE][PASSED] - Text 'PortalAdmin' is set on object 'Object Repository/Page_Sales Performance Home/input_password'
+
+2018-09-20 16:44:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sales Performance Home/button_Login' is clicked on
+
+2018-09-20 16:44:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sales Performance Home/button_Login' is clicked on
+
+2018-09-20 16:44:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sales Performance Home/span_Sales Performance Home' is clicked on
+
+2018-09-20 16:44:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sales Performance Home/span_Sales Performance Home' is clicked on
+
+2018-09-20 16:44:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sales Performance Home/a_Commissions' is clicked on
+
+2018-09-20 16:44:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sales Performance Home/a_Commissions' is clicked on
+
+2018-09-20 16:44:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Callidus Cloud Commissions Man/a_Manage Setup' is clicked on
+
+2018-09-20 16:45:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Callidus Cloud Commissions Man/a_Manage Setup' is clicked on
+
+2018-09-20 16:45:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Commission Login' successfully
+
+2018-09-20 16:45:23 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-09-20 16:45:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-20 16:45:28 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page_Plan Tab/a_Plan' is hovered
+
+2018-09-20 16:45:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Plan Tab/a_Plan' is hovered
+
+2018-09-20 16:45:28 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-09-20 16:45:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-20 16:45:31 - [TEST_STEP][PASSED] - Statement - println("User is able to naviagte to Plan tab"): null
+
+2018-09-20 16:45:31 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Page_Plan Tab/a_Rules' successfully
+
+2018-09-20 16:45:31 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Plan Tab/a_Rules' successfully
+
+2018-09-20 16:45:31 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-09-20 16:45:35 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-09-20 16:45:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Plan Tab/a_Rules' is clicked on
+
+2018-09-20 16:45:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Plan Tab/a_Rules' is clicked on
+
+2018-09-20 16:45:41 - [TEST_STEP][PASSED] - Statement - println("User Naviagted to Rules screen"): null
+
+2018-09-20 16:45:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Callidus Cloud Commissions Man/a_Advanced Search' is clicked on
+
+2018-09-20 16:45:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Callidus Cloud Commissions Man/a_Advanced Search' is clicked on
+
+2018-09-20 16:45:42 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-09-20 16:45:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-20 16:45:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Callidus Cloud Commissions Man/td_Field Name' is clicked on
+
+2018-09-20 16:45:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Callidus Cloud Commissions Man/td_Field Name' is clicked on
+
+2018-09-20 16:45:45 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-20 16:45:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-20 16:45:47 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Page_Plan Tab/a_Field_name' successfully
+
+2018-09-20 16:45:47 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Plan Tab/a_Field_name' successfully
+
+2018-09-20 16:45:47 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-20 16:45:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-20 16:45:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Plan Tab/a_Field_name' is clicked on
+
+2018-09-20 16:45:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Plan Tab/a_Field_name' is clicked on
+
+2018-09-20 16:45:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Callidus Cloud Commissions Man/td_Comparision' is clicked on
+
+2018-09-20 16:45:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Callidus Cloud Commissions Man/td_Comparision' is clicked on
+
+2018-09-20 16:45:50 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-20 16:45:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-20 16:45:52 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Page_Callidus Cloud Commissions Man/option_Equals' successfully
+
+2018-09-20 16:45:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Callidus Cloud Commissions Man/option_Equals' successfully
+
+2018-09-20 16:45:52 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-20 16:45:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-20 16:45:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Callidus Cloud Commissions Man/option_Equals' is clicked on
+
+2018-09-20 16:45:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Callidus Cloud Commissions Man/option_Equals' is clicked on
+
+2018-09-20 16:45:54 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-20 16:45:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-20 16:45:56 - [TEST_STEP][PASSED] - setText: Text 'VV_test credit Rule' is set on object 'Object Repository/Page_Callidus Cloud Commissions Man/td_Value'
+
+2018-09-20 16:45:57 - [MESSAGE][PASSED] - Text 'VV_test credit Rule' is set on object 'Object Repository/Page_Callidus Cloud Commissions Man/td_Value'
+
+2018-09-20 16:45:57 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-20 16:45:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-20 16:45:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Callidus Cloud Commissions Man/input_Apply Search' is clicked on
+
+2018-09-20 16:45:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Callidus Cloud Commissions Man/input_Apply Search' is clicked on
+
+2018-09-20 16:45:59 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-09-20 16:45:59 - [TEST_STEP][PASSED] - Statement - norecord = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Callidus Cloud Commissions Man/NoRecordsFound), 10): Object 'Object Repository/Page_Callidus Cloud Commissions Man/NoRecordsFound' is not present after 10 second(s)
+
+2018-09-20 16:46:11 - [MESSAGE][WARNING] - Object 'Object Repository/Page_Callidus Cloud Commissions Man/NoRecordsFound' is not present after 10 second(s)
+
+2018-09-20 16:46:11 - [TEST_STEP][PASSED] - Statement - If (norecord): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Credit Rule exists in the system - Testing - Wrong String" classname="Test Cases/Credit Rule exists in the system - Testing - Wrong String" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Record Not found
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:15)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1537439452994.run(Script1537439452994.groovy:89)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537442016350.run(TempTestSuite1537442016350.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-09-20 16:46:11 - [TEST_CASE][FAILED] - Test Cases/Credit Rule exists in the system - Testing - Wrong String: Test Cases/Credit Rule exists in the system - Testing - Wrong String FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Record Not found
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:15)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1537439452994.run(Script1537439452994.groovy:89)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537442016350.run(TempTestSuite1537442016350.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-09-20 16:46:11 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-09-20 16:46:11 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-09-20 16:46:11 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-09-20 16:46:12 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2018-09-20 16:46:12 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2018-09-20 16:46:12 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2018-09-20 16:46:12 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2018-09-20 16:46:12 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Commission Login' successfully
+
+2018-09-20 16:46:12 - [TEST_CASE][PASSED] - Test Cases/Commission Login: Test Cases/Commission Login
+
+2018-09-20 16:46:12 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-20 16:46:12 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-09-20 16:46:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-20 16:46:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ca1-lvcomapp-int6.callidussoftware.com:444/SalesPortal/#!/' successfully
+
+2018-09-20 16:46:31 - [MESSAGE][PASSED] - Navigate to 'https://ca1-lvcomapp-int6.callidussoftware.com:444/SalesPortal/#!/' successfully
+
+2018-09-20 16:46:31 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-20 16:46:32 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-20 16:46:32 - [TEST_STEP][PASSED] - setText: Text 'PortalAdmin' is set on object 'Object Repository/Page_Sales Performance Home/input_username'
+
+2018-09-20 16:46:33 - [MESSAGE][PASSED] - Text 'PortalAdmin' is set on object 'Object Repository/Page_Sales Performance Home/input_username'
+
+2018-09-20 16:46:33 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-20 16:46:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-20 16:46:35 - [TEST_STEP][PASSED] - setText: Text 'PortalAdmin' is set on object 'Object Repository/Page_Sales Performance Home/input_password'
+
+2018-09-20 16:46:35 - [MESSAGE][PASSED] - Text 'PortalAdmin' is set on object 'Object Repository/Page_Sales Performance Home/input_password'
+
+2018-09-20 16:46:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sales Performance Home/button_Login' is clicked on
+
+2018-09-20 16:46:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sales Performance Home/button_Login' is clicked on
+
+2018-09-20 16:46:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sales Performance Home/span_Sales Performance Home' is clicked on
+
+2018-09-20 16:46:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sales Performance Home/span_Sales Performance Home' is clicked on
+
+2018-09-20 16:46:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sales Performance Home/a_Commissions' is clicked on
+
+2018-09-20 16:46:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sales Performance Home/a_Commissions' is clicked on
+
+2018-09-20 16:46:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Callidus Cloud Commissions Man/a_Manage Setup' is clicked on
+
+2018-09-20 16:47:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Callidus Cloud Commissions Man/a_Manage Setup' is clicked on
+
+2018-09-20 16:47:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Commission Login' successfully
+
+2018-09-20 16:47:33 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-09-20 16:47:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-20 16:47:38 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page_Plan Tab/a_Plan' is hovered
+
+2018-09-20 16:47:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Plan Tab/a_Plan' is hovered
+
+2018-09-20 16:47:39 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-09-20 16:47:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-20 16:47:42 - [TEST_STEP][PASSED] - Statement - println("User is able to naviagte to Plan tab"): null
+
+2018-09-20 16:47:42 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Page_Plan Tab/a_Rules' successfully
+
+2018-09-20 16:47:42 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Plan Tab/a_Rules' successfully
+
+2018-09-20 16:47:42 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-09-20 16:47:46 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-09-20 16:47:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Plan Tab/a_Rules' is clicked on
+
+2018-09-20 16:47:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Plan Tab/a_Rules' is clicked on
+
+2018-09-20 16:47:52 - [TEST_STEP][PASSED] - Statement - println("User Naviagted to Rules screen"): null
+
+2018-09-20 16:47:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Callidus Cloud Commissions Man/a_Advanced Search' is clicked on
+
+2018-09-20 16:47:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Callidus Cloud Commissions Man/a_Advanced Search' is clicked on
+
+2018-09-20 16:47:53 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-09-20 16:47:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-20 16:47:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Callidus Cloud Commissions Man/td_Field Name' is clicked on
+
+2018-09-20 16:47:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Callidus Cloud Commissions Man/td_Field Name' is clicked on
+
+2018-09-20 16:47:57 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-20 16:47:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-20 16:47:59 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Page_Plan Tab/a_Field_name' successfully
+
+2018-09-20 16:48:00 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Plan Tab/a_Field_name' successfully
+
+2018-09-20 16:48:00 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-20 16:48:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-20 16:48:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Plan Tab/a_Field_name' is clicked on
+
+2018-09-20 16:48:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Plan Tab/a_Field_name' is clicked on
+
+2018-09-20 16:48:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Callidus Cloud Commissions Man/td_Comparision' is clicked on
+
+2018-09-20 16:48:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Callidus Cloud Commissions Man/td_Comparision' is clicked on
+
+2018-09-20 16:48:02 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-20 16:48:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-20 16:48:04 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Page_Callidus Cloud Commissions Man/option_Equals' successfully
+
+2018-09-20 16:48:04 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Callidus Cloud Commissions Man/option_Equals' successfully
+
+2018-09-20 16:48:04 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-20 16:48:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-20 16:48:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Callidus Cloud Commissions Man/option_Equals' is clicked on
+
+2018-09-20 16:48:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Callidus Cloud Commissions Man/option_Equals' is clicked on
+
+2018-09-20 16:48:07 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-20 16:48:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-20 16:48:09 - [TEST_STEP][PASSED] - setText: Text 'zzzzzzzzzzzzzzzzzzzzz' is set on object 'Object Repository/Page_Callidus Cloud Commissions Man/td_Value'
+
+2018-09-20 16:48:10 - [MESSAGE][PASSED] - Text 'zzzzzzzzzzzzzzzzzzzzz' is set on object 'Object Repository/Page_Callidus Cloud Commissions Man/td_Value'
+
+2018-09-20 16:48:10 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-20 16:48:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-20 16:48:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Callidus Cloud Commissions Man/input_Apply Search' is clicked on
+
+2018-09-20 16:48:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Callidus Cloud Commissions Man/input_Apply Search' is clicked on
+
+2018-09-20 16:48:14 - [TEST_STEP][PASSED] - Statement - Try: noooooooooooooooooooooooooooooooooooooooo
+
+2018-09-20 16:48:14 - [TEST_STEP][PASSED] - Statement - norecord = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Callidus Cloud Commissions Man/NoRecordsFound), 10): Object 'Object Repository/Page_Callidus Cloud Commissions Man/NoRecordsFound' is present
+
+2018-09-20 16:48:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Callidus Cloud Commissions Man/NoRecordsFound' is present
+
+2018-09-20 16:48:15 - [TEST_STEP][PASSED] - Statement - If (norecord): noooooooooooooooooooooooooooooooooooooooo
+
+2018-09-20 16:48:15 - [TEST_STEP][PASSED] - Statement - com.kms.katalon.core.util.KeywordUtil.markFailed("Record Not found"): null
+
+2018-09-20 16:48:15 - [TEST_STEP][PASSED] - Statement - logger = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2018-09-20 16:48:15 - [TEST_STEP][PASSED] - Statement - logger.logInfo("noooooooooooooooooooooooooooooooooooooooo"): noooooooooooooooooooooooooooooooooooooooo]]></system-out>
+         <system-err><![CDATA[2018-09-20 16:46:11 - [TEST_CASE][FAILED] - Test Cases/Credit Rule exists in the system - Testing - Wrong String: Test Cases/Credit Rule exists in the system - Testing - Wrong String FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Record Not found
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:15)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1537439452994.run(Script1537439452994.groovy:89)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537442016350.run(TempTestSuite1537442016350.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-20 16:43:40 - [TEST_SUITE][FAILED] - logs with fail and pass: Test Cases/Credit Rule exists in the system - Testing - Wrong String FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Record Not found
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:15)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1537439452994.run(Script1537439452994.groovy:89)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537442016350.run(TempTestSuite1537442016350.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-09-20 16:43:40 - [TEST_SUITE][FAILED] - logs with fail and pass: Test Cases/Credit Rule exists in the system - Testing - Wrong String FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Record Not found
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:15)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1537439452994.run(Script1537439452994.groovy:89)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537442016350.run(TempTestSuite1537442016350.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

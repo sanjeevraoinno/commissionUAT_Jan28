@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Position Groups exist in the system</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2e9bf19c-5ded-4354-9fcd-46e2d59127ab</testCaseGuid>
+   <variable>
+      <defaultValue>'POS20'</defaultValue>
+      <description></description>
+      <id>b3a2c5fa-44c4-4405-b18c-c374af9fc0c1</id>
+      <masked>false</masked>
+      <name>Pos_Grp</name>
+   </variable>
+</TestCaseEntity>

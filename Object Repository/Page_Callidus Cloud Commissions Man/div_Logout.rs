@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Logout</name>
+   <tag></tag>
+   <elementGuidId>fa11e421-2ed4-4cff-ad78-6283d096b5ad</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@class='cald-ui-header__right']/span[@class='cald-ui-header__user']/span[@class='cald-ui-dropdown cald-ui-dropdown--clickable']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>cald-ui-dropdown-item</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Logout</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;global-header&quot;)/header[@class=&quot;cald-ui-header&quot;]/span[@class=&quot;cald-ui-header__right&quot;]/span[@class=&quot;cald-ui-header__user&quot;]/span[@class=&quot;cald-ui-dropdown cald-ui-dropdown--clickable&quot;]/span[@class=&quot;cald-ui-dropdown-items&quot;]/div[@class=&quot;cald-ui-dropdown-container&quot;]/div[@class=&quot;cald-ui-dropdown-item&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

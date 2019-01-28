@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify that Users(name of the User) exists in the system</description>
+   <name>Users exists in the system</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2a9dfc85-5f50-4382-a5ce-cd7fbb1efe22</testCaseGuid>
+   <variable>
+      <defaultValue>'skadhulu@calliduscloud.com'</defaultValue>
+      <description></description>
+      <id>b8183ab6-111f-4b93-8fb2-8228398439fa</id>
+      <masked>false</masked>
+      <name>UserName</name>
+   </variable>
+</TestCaseEntity>

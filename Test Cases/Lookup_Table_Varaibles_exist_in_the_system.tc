@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Lookup_Table_Varaibles_exist_in_the_system</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>72b1d8f3-2779-4725-8514-9e1850625f06</testCaseGuid>
+   <variable>
+      <defaultValue>'looup78'</defaultValue>
+      <description></description>
+      <id>70ccc00d-1382-4257-887f-0f38cebf8422</id>
+      <masked>false</masked>
+      <name>LUP_Var</name>
+   </variable>
+</TestCaseEntity>

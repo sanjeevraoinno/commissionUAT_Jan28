@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify that Quotas(name of the Quota) exists in the system</description>
+   <name>Quotas exists in the system</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7df888f8-1861-4a44-be46-7a158bb96965</testCaseGuid>
+   <variable>
+      <defaultValue>'asics_quota'</defaultValue>
+      <description></description>
+      <id>d13179cd-4be8-4b92-a7c9-b19e86d3309a</id>
+      <masked>false</masked>
+      <name>Quotas</name>
+   </variable>
+</TestCaseEntity>

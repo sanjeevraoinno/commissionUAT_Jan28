@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Fixed_Value_exist in the  system</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ef0d892f-5b9d-4697-8f0b-9007b8b8111d</testCaseGuid>
+   <variable>
+      <defaultValue>'FV_per1'</defaultValue>
+      <description></description>
+      <id>3c73e33b-26ed-403b-9a7e-29a47870a7a8</id>
+      <masked>false</masked>
+      <name>FIX_VAL</name>
+   </variable>
+</TestCaseEntity>

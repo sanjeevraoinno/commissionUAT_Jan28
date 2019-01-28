@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Earning Groups exist in the system</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>efb56962-ee32-46e9-8e0e-db8b15c2e646</testCaseGuid>
+   <variable>
+      <defaultValue>'Commission'</defaultValue>
+      <description></description>
+      <id>9826086b-e4be-4ead-9095-4bbbb2f90117</id>
+      <masked>false</masked>
+      <name>EarningGroupName</name>
+   </variable>
+</TestCaseEntity>

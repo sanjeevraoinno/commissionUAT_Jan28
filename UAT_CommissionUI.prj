@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description></description>
+   <name>UAT_CommissionUI</name>
+   <tag></tag>
+   <UUID>d855ad6c-6812-47bd-9541-115c4cc4c940</UUID>
+   <migratedVersion>5.4.0</migratedVersion>
+   <pageLoadTimeout>0</pageLoadTimeout>
+</Project>

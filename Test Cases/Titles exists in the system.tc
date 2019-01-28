@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify that Titles(name of the Title) exists in the system</description>
+   <name>Titles exists in the system</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bde9989e-2083-4db4-9f87-47019d66e82d</testCaseGuid>
+   <variable>
+      <defaultValue>'senior'</defaultValue>
+      <description></description>
+      <id>49474011-f780-43d0-9354-e20aa40f3298</id>
+      <masked>false</masked>
+      <name>TitleName</name>
+   </variable>
+</TestCaseEntity>

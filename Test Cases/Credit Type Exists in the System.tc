@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Credit Type Exists in the System</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5c06636d-dc82-4fcd-892a-0bbe885b50b4</testCaseGuid>
+   <variable>
+      <defaultValue>'Commission'</defaultValue>
+      <description></description>
+      <id>d10f5904-7efc-4026-99da-941cb043d242</id>
+      <masked>false</masked>
+      <name>Credit_Types</name>
+   </variable>
+</TestCaseEntity>

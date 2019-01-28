@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Commission Login - Copy</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a6179384-c3d6-4b4a-b3df-87c1287ef732</testCaseGuid>
+   <variable>
+      <defaultValue>'https://biz3-tst.callidusondemand.com/SalesPortal/#!/'</defaultValue>
+      <description></description>
+      <id>0687fe9e-7e8f-4148-aff7-309908e764fc</id>
+      <masked>false</masked>
+      <name>Url</name>
+   </variable>
+   <variable>
+      <defaultValue>'PortalAdmin'</defaultValue>
+      <description></description>
+      <id>e9e29c74-cf20-4281-94cd-941ddf8def8a</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>'PortalAdmin'</defaultValue>
+      <description></description>
+      <id>c1baaa6c-c019-409e-a802-a082292e0330</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

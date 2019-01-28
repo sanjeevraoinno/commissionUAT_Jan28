@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Territory</name>
+   <tag></tag>
+   <elementGuidId>d0f2b197-a837-4571-a4fa-d6f5d3cfa894</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class='app-subdiv']/a[@href='#/territory/list/false']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class='app-subdiv']/a[@href='#/territory/list/false']</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Rate_Table_Variable_exist_in_the_system</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ed9e5276-d3e3-4869-ae67-e2bb477a3adc</testCaseGuid>
+   <variable>
+      <defaultValue>'FVV_Trty_Per'</defaultValue>
+      <description></description>
+      <id>bd6e8f22-1107-4073-aa82-e568b9b1c9b7</id>
+      <masked>false</masked>
+      <name>R_T_Var</name>
+   </variable>
+</TestCaseEntity>

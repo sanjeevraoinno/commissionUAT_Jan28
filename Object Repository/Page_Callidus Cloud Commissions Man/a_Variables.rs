@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Variables</name>
+   <tag></tag>
+   <elementGuidId>48cc756d-74ff-4044-b154-e4f29ff04524</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class='app-subdiv']/a[@href='#/variable/list/false']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class='app-subdiv']/a[@href='#/variable/list/false']</value>
+   </webElementProperties>
+</WebElementEntity>
