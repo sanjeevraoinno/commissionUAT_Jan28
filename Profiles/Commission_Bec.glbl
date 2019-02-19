@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Commission_Bec</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://bkmn-dev.callidusondemand.com/SalesPortal/#!/'</initValue>
+      <name>BecURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'srao'</initValue>
+      <name>Bec_UserName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'India123'</initValue>
+      <name>Bec_Password</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

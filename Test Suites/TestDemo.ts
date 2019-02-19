@@ -15,24 +15,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Commission Login</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>575bb085-19e1-48fc-bce4-1cadc716e45e</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>71b8cdc3-bad4-417a-90b6-bf06ba647473</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>4c8713f7-dfb4-494a-9ece-d447ec2cd517</variableId>
-      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>c349a562-59b5-44d5-b833-cd17085d1f21</guid>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Report testing" time="213" tests="1" failures="0" errors="0">
+   <testsuite name="Report testing" tests="1" failures="0" errors="0" time="213" timestamp="2019-02-13 12:20:26" hostname="skadhulu - PC03UDCK-T440P.callidussoftware.com" id="Test Suites/Report testing">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\skadhulu\\git\\commissionUAT_Jan28\\Reports\\Report testing\\20190213_122022"/>
+         <property name="logFiles" value="C:\\Users\\skadhulu\\git\\commissionUAT_Jan28\\Reports\\Report testing\\20190213_122022\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="skadhulu - PC03UDCK-T440P.callidussoftware.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.242.20"/>
+         <property name="sessionId" value="7b6f2a337e690ed271e43a3543bc95a3"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Commission Login" classname="Test Cases/Commission Login" status="PASSED">
+         <system-out><![CDATA[2019-02-13 12:20:26 - [TEST_CASE][PASSED] - Test Cases/Commission Login: Test Cases/Commission Login
+
+2019-02-13 12:20:26 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-02-13 12:20:26 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-02-13 12:20:26 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-02-13 12:20:26 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+2019-02-13 12:20:27 - [TEST_STEP][PASSED] - print("My my Test cases are executes like boss"): null
+
+2019-02-13 12:20:27 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+2019-02-13 12:20:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-02-13 12:20:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-13 12:20:27 - [MESSAGE][INFO] - Action delay is set to 1 seconds
+
+2019-02-13 12:20:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-13 12:20:33 - [TEST_STEP][PASSED] - navigateToUrl(Url): Navigate to 'https://biz3-tst.callidusondemand.com/SalesPortal/#!/' successfully
+
+2019-02-13 12:21:24 - [MESSAGE][PASSED] - Navigate to 'https://biz3-tst.callidusondemand.com/SalesPortal/#!/' successfully
+
+2019-02-13 12:21:24 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-02-13 12:21:26 - [MESSAGE][PASSED] - Current window maximized
+
+2019-02-13 12:21:26 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Sales Performance Home/input_username"), Username): Text 'skadhulu@calliduscloud.com' is set on object 'Object Repository/Page_Sales Performance Home/input_username'
+
+2019-02-13 12:21:31 - [MESSAGE][PASSED] - Text 'skadhulu@calliduscloud.com' is set on object 'Object Repository/Page_Sales Performance Home/input_username'
+
+2019-02-13 12:21:31 - [TEST_STEP][NOT_RUN] - delay(2): NOT_RUN: delay(2)
+
+2019-02-13 12:21:31 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(2)
+
+2019-02-13 12:21:31 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Sales Performance Home/input_password"), Password): Text 'Vinayaka@1254' is set on object 'Object Repository/Page_Sales Performance Home/input_password'
+
+2019-02-13 12:21:35 - [MESSAGE][PASSED] - Text 'Vinayaka@1254' is set on object 'Object Repository/Page_Sales Performance Home/input_password'
+
+2019-02-13 12:21:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_Sales Performance Home/button_Login")): Object: 'Object Repository/Page_Sales Performance Home/button_Login' is clicked on
+
+2019-02-13 12:21:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sales Performance Home/button_Login' is clicked on
+
+2019-02-13 12:21:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_Sales Performance Home/span_Administration_sap-icon")): Object: 'Object Repository/Page_Sales Performance Home/span_Administration_sap-icon' is clicked on
+
+2019-02-13 12:21:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sales Performance Home/span_Administration_sap-icon' is clicked on
+
+2019-02-13 12:21:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_Sales Performance Home/a_Commissions")): Object: 'Object Repository/Page_Sales Performance Home/a_Commissions' is clicked on
+
+2019-02-13 12:22:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sales Performance Home/a_Commissions' is clicked on
+
+2019-02-13 12:22:13 - [TEST_STEP][PASSED] - waitForPageLoad(100): Wait for page load successfully
+
+2019-02-13 12:22:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-02-13 12:22:14 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Page_Callidus Cloud Commissions Man/a_Manage Setup"), 100): Web element with id: 'Object Repository/Page_Callidus Cloud Commissions Man/a_Manage Setup' located by 'By.xpath: //div[@class='landingHeading']/a[@href='#/user/list']' not found
+
+2019-02-13 12:23:57 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class='landingHeading']/a[@href='#/user/list']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-02-13 12:23:57 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Page_Callidus Cloud Commissions Man/a_Manage Setup' located by 'By.xpath: //div[@class='landingHeading']/a[@href='#/user/list']' not found]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-13 12:20:26 - [TEST_SUITE][PASSED] - Report testing: Test Cases/Commission Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

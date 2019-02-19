@@ -29,11 +29,11 @@ WebUI.click(findTestObject('Page_Organization Tab/a_Positions'))
 
 println('User Naviagted to Positions screen')
 
-WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/a_Advanced Search'))
+WebUI.click(findTestObject('AdvanceSearch_Page/Icon_Advanced Search'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/td_Field Name'))
+WebUI.click(findTestObject('AdvanceSearch_Page/FieldName_DropDown'))
 
 WebUI.delay(2)
 
@@ -43,23 +43,23 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_Organization Tab/option_Position_Name'))
 
-WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/td_Comparision'))
+WebUI.click(findTestObject('AdvanceSearch_Page/td_Comparision'))
 
 WebUI.delay(2)
 
-WebUI.scrollToElement(findTestObject('Page_Callidus Cloud Commissions Man/option_Equals'), 2)
+WebUI.scrollToElement(findTestObject('AdvanceSearch_Page/option_Equals'), 2)
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/option_Equals'))
+WebUI.click(findTestObject('AdvanceSearch_Page/option_Equals'))
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Page_Callidus Cloud Commissions Man/td_Value'), Position)
+WebUI.setText(findTestObject('AdvanceSearch_Page/td_Value'), Position)
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/input_Apply Search'))
+WebUI.click(findTestObject('null'))
 
 CustomKeywords.'globalkeywords.record.RecordNotFound'()
 

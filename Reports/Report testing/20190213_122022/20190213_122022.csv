@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Report testing,Chrome 71.0.3578.98,,2019-02-13 12:20:26,2019-02-13 12:23:59,3m - 33.124s,PASSED
+,,,,,,
+Test Cases/Commission Login,Chrome 71.0.3578.98,,2019-02-13 12:20:26,2019-02-13 12:23:57,3m - 30.808s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-02-13 12:20:26,2019-02-13 12:20:26,0.084s,PASSED
+Start setup action : setupTestCase,Chrome 71.0.3578.98,,2019-02-13 12:20:26,2019-02-13 12:20:27,0.263s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-02-13 12:20:27,2019-02-13 12:20:33,5.926s,PASSED
+navigateToUrl(Url),Chrome 71.0.3578.98,,2019-02-13 12:20:33,2019-02-13 12:21:24,50.642s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-02-13 12:21:24,2019-02-13 12:21:26,2.211s,PASSED
+"setText(findTestObject(""Page_Sales Performance Home/input_username""), Username)",Chrome 71.0.3578.98,,2019-02-13 12:21:26,2019-02-13 12:21:31,4.885s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-02-13 12:21:31,2019-02-13 12:21:31,0.008s,NOT_RUN
+"setText(findTestObject(""Page_Sales Performance Home/input_password""), Password)",Chrome 71.0.3578.98,,2019-02-13 12:21:31,2019-02-13 12:21:35,4.466s,PASSED
+"click(findTestObject(""Page_Sales Performance Home/button_Login""))",Chrome 71.0.3578.98,,2019-02-13 12:21:35,2019-02-13 12:21:37,2.253s,PASSED
+"click(findTestObject(""Page_Sales Performance Home/span_Administration_sap-icon""))",Chrome 71.0.3578.98,,2019-02-13 12:21:37,2019-02-13 12:21:43,5.379s,PASSED
+"click(findTestObject(""Page_Sales Performance Home/a_Commissions""))",Chrome 71.0.3578.98,,2019-02-13 12:21:43,2019-02-13 12:22:13,30.340s,PASSED
+waitForPageLoad(100),Chrome 71.0.3578.98,,2019-02-13 12:22:13,2019-02-13 12:22:14,1.098s,PASSED
+"waitForElementClickable(findTestObject(""Page_Callidus Cloud Commissions Man/a_Manage Setup""), 100)",Chrome 71.0.3578.98,,2019-02-13 12:22:14,2019-02-13 12:23:57,1m - 42.798s,PASSED

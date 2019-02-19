@@ -39,11 +39,11 @@ WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/a_Fixed Value Ty
 
 not_run: println('User Naviagted to Fixed Value types screen')
 
-WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/a_Advanced Search'))
+WebUI.click(findTestObject('AdvanceSearch_Page/Icon_Advanced Search'))
 
 not_run: WebUI.delay(3)
 
-WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/td_Field Name'))
+WebUI.click(findTestObject('AdvanceSearch_Page/FieldName_DropDown'))
 
 not_run: WebUI.delay(2)
 
@@ -53,23 +53,23 @@ not_run: WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/option_Fixed Value Type id'))
 
-WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/td_Comparision'))
+WebUI.click(findTestObject('AdvanceSearch_Page/td_Comparision'))
 
 not_run: WebUI.delay(2)
 
-WebUI.scrollToElement(findTestObject('Page_Callidus Cloud Commissions Man/option_Equals'), 2)
+WebUI.scrollToElement(findTestObject('AdvanceSearch_Page/option_Equals'), 2)
 
 not_run: WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/option_Equals'))
+WebUI.click(findTestObject('AdvanceSearch_Page/option_Equals'))
 
 not_run: WebUI.delay(2)
 
-WebUI.setText(findTestObject('Page_Callidus Cloud Commissions Man/td_Value'), FV_Type)
+WebUI.setText(findTestObject('AdvanceSearch_Page/td_Value'), FV_Type)
 
 not_run: WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/input_Apply Search'))
+WebUI.click(findTestObject('null'))
 
 CustomKeywords.'globalkeywords.record.RecordNotFound'()
 

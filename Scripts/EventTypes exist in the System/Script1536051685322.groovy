@@ -21,54 +21,59 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-WebUI.callTestCase(findTestCase('Commission Login'), [('Password') : 'PortalAdmin', ('Username') : 'PortalAdmin', ('Url') : 'https://ca1-lvcomapp-int6.callidussoftware.com:444/SalesPortal/#!/'], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Commission Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('Page_Callidus Cloud Commissions Man/div_ADMINISTRATION'))
+WebUI.waitForElementVisible(findTestObject('HomePage_Commission/Icon_GlobalValues'), 5)
 
-WebUI.delay(2)
+WebUI.click(findTestObject('HomePage_Commission/Icon_GlobalValues'))
 
-println('User is able to naviagte to Administration tab')
+println('User is able to naviagte to Global Variable Icon')
 
-WebUI.scrollToElement(findTestObject('Page_Callidus Cloud Commissions Man/a_Event Types'), 5)
+WebUI.mouseOver(findTestObject('Globalvalues_Page/Link_EventTypes'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(4)
+WebUI.waitForElementClickable(findTestObject('Globalvalues_Page/Link_EventTypes'), 5)
 
-WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/a_Event Types'))
+WebUI.click(findTestObject('Globalvalues_Page/Link_EventTypes'))
 
 println('User Naviagted to Event Type screen')
 
-WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/a_Advanced Search'))
+WebUI.waitForPageLoad(5)
 
-WebUI.delay(3)
+WebUI.scrollToPosition(0, 0)
 
-WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/td_Field Name'))
+WebUI.click(findTestObject('AdvanceSearch_Page/Icon_Advanced Search'))
 
-WebUI.delay(2)
+WebUI.waitForElementVisible(findTestObject('AdvanceSearch_Page/FieldName_DropDown'), 5)
 
-WebUI.scrollToElement(findTestObject('Page_Callidus Cloud Commissions Man/option_Event Type id'), 3)
+WebUI.click(findTestObject('AdvanceSearch_Page/FieldName_DropDown'))
 
-WebUI.delay(2)
+WebUI.waitForElementVisible(findTestObject('AdvanceSearch_Page/option_Event Type id'), 2)
 
-WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/option_Event Type id'))
+WebUI.scrollToElement(findTestObject('AdvanceSearch_Page/option_Event Type id'), 3)
 
-WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/td_Comparision'))
+WebUI.waitForElementClickable(findTestObject('AdvanceSearch_Page/option_Event Type id'), 2)
 
-WebUI.delay(2)
+WebUI.click(findTestObject('AdvanceSearch_Page/option_Event Type id'))
 
-WebUI.scrollToElement(findTestObject('Page_Callidus Cloud Commissions Man/option_Equals'), 2)
+WebUI.click(findTestObject('AdvanceSearch_Page/td_Comparision'))
 
-WebUI.delay(2)
+WebUI.waitForElementVisible(findTestObject('AdvanceSearch_Page/option_Equals'), 2)
 
-WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/option_Equals'))
+WebUI.scrollToElement(findTestObject('AdvanceSearch_Page/option_Equals'), 2)
 
-WebUI.delay(2)
+WebUI.waitForElementClickable(findTestObject('AdvanceSearch_Page/option_Equals'), 2)
 
-WebUI.setText(findTestObject('Page_Callidus Cloud Commissions Man/td_Value'), eventTypeName)
+WebUI.click(findTestObject('AdvanceSearch_Page/option_Equals'))
 
-WebUI.delay(2)
+WebUI.waitForElementClickable(findTestObject('AdvanceSearch_Page/td_Value'), 2)
 
-WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/input_Apply Search'))
+WebUI.click(findTestObject('AdvanceSearch_Page/td_Value'))
+
+WebUI.setText(findTestObject('AdvanceSearch_Page/td_Value'), eventTypeName)
+
+WebUI.waitForElementClickable(findTestObject('AdvanceSearch_Page/AppySearch_button'), 2)
+
+WebUI.click(findTestObject('AdvanceSearch_Page/AppySearch_button'))
 
 CustomKeywords.'globalkeywords.record.RecordNotFound'()
 

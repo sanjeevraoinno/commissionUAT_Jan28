@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Report testing,Chrome 71.0.3578.98,,2019-02-14 12:54:42,2019-02-14 12:57:43,3m - 0.906s,FAILED
+,,,,,,
+Test Cases/Commission Login,Chrome 71.0.3578.98,,2019-02-14 12:54:43,2019-02-14 12:57:41,2m - 58.748s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-02-14 12:54:43,2019-02-14 12:54:43,0.090s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-02-14 12:54:43,2019-02-14 12:54:50,6.730s,PASSED
+navigateToUrl(Url),Chrome 71.0.3578.98,,2019-02-14 12:54:50,2019-02-14 12:56:56,2m - 6.420s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-02-14 12:56:56,2019-02-14 12:56:58,2.178s,PASSED
+"setText(findTestObject(""Page_Sales Performance Home/input_username""), Username)",Chrome 71.0.3578.98,,2019-02-14 12:56:58,2019-02-14 12:57:03,4.513s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-02-14 12:57:03,2019-02-14 12:57:03,0.003s,NOT_RUN
+"setText(findTestObject(""Page_Sales Performance Home/input_password""), Password)",Chrome 71.0.3578.98,,2019-02-14 12:57:03,2019-02-14 12:57:07,4.401s,PASSED
+"click(findTestObject(""Page_Sales Performance Home/button_Login""))",Chrome 71.0.3578.98,,2019-02-14 12:57:07,2019-02-14 12:57:09,2.191s,PASSED
+"click(findTestObject(""Page_Sales Performance Home/span_Administration_sap-icon""))",Chrome 71.0.3578.98,,2019-02-14 12:57:09,2019-02-14 12:57:41,31.843s,FAILED

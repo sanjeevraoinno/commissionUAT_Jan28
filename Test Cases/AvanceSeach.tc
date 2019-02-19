@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AvanceSeach</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ec391e59-eff7-42ec-b8af-afcc8894d413</testCaseGuid>
+   <variable>
+      <defaultValue>'USL-SRP _'</defaultValue>
+      <description></description>
+      <id>10e2f646-c0af-4f3a-9562-55b4c5f5c5a0</id>
+      <masked>false</masked>
+      <name>SerachString</name>
+   </variable>
+</TestCaseEntity>

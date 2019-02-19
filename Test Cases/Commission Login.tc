@@ -3,27 +3,6 @@
    <description></description>
    <name>Commission Login</name>
    <tag></tag>
-   <comment></comment>
+   <comment>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</comment>
    <testCaseGuid>ea96b448-7ddc-4f70-a335-c00fe184b5d3</testCaseGuid>
-   <variable>
-      <defaultValue>'Vinayaka@1254'</defaultValue>
-      <description></description>
-      <id>575bb085-19e1-48fc-bce4-1cadc716e45e</id>
-      <masked>false</masked>
-      <name>Password</name>
-   </variable>
-   <variable>
-      <defaultValue>'skadhulu@calliduscloud.com'</defaultValue>
-      <description></description>
-      <id>71b8cdc3-bad4-417a-90b6-bf06ba647473</id>
-      <masked>false</masked>
-      <name>Username</name>
-   </variable>
-   <variable>
-      <defaultValue>'https://biz3-tst.callidusondemand.com/SalesPortal/#!/'</defaultValue>
-      <description></description>
-      <id>4c8713f7-dfb4-494a-9ece-d447ec2cd517</id>
-      <masked>false</masked>
-      <name>Url</name>
-   </variable>
 </TestCaseEntity>

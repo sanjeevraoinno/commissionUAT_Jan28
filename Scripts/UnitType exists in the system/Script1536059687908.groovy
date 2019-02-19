@@ -22,7 +22,7 @@ import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as Cucumber
 
 not_run: WebUI.callTestCase(findTestCase('Commission Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Commission Login - Copy'), [('Url') : 'https://ca1-lvcomapp-int6.callidussoftware.com:444/SalesPortal/#!/'
+WebUI.callTestCase(findTestCase('null'), [('Url') : 'https://ca1-lvcomapp-int6.callidussoftware.com:444/SalesPortal/#!/'
         , ('Username') : 'PortalAdmin', ('Password') : 'PortalAdmin'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.mouseOver(findTestObject('Page_Callidus Cloud Commissions Man/div_ADMINISTRATION'))
@@ -39,11 +39,11 @@ WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/a_Unit Types'))
 
 println('User Naviagted to Unit Types screen')
 
-WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/a_Advanced Search'))
+WebUI.click(findTestObject('AdvanceSearch_Page/Icon_Advanced Search'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/td_Field Name'))
+WebUI.click(findTestObject('AdvanceSearch_Page/FieldName_DropDown'))
 
 WebUI.delay(2)
 
@@ -53,23 +53,23 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/option_Unit Type name'))
 
-WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/td_Comparision'))
+WebUI.click(findTestObject('AdvanceSearch_Page/td_Comparision'))
 
 WebUI.delay(2)
 
-WebUI.scrollToElement(findTestObject('Page_Callidus Cloud Commissions Man/option_Equals'), 2)
+WebUI.scrollToElement(findTestObject('AdvanceSearch_Page/option_Equals'), 2)
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/option_Equals'))
+WebUI.click(findTestObject('AdvanceSearch_Page/option_Equals'))
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Page_Callidus Cloud Commissions Man/td_Value'), UnitType)
+WebUI.setText(findTestObject('AdvanceSearch_Page/td_Value'), UnitType)
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/input_Apply Search'))
+WebUI.click(findTestObject('null'))
 
 CustomKeywords.'globalkeywords.record.RecordNotFound'()
 

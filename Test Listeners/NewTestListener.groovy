@@ -32,6 +32,8 @@ class NewTestListener {
 		println testCaseContext.getTestCaseId()
 		println testCaseContext.getTestCaseVariables()
 	}
+	
+
 
 	/**
 	 * Executes before every test suite starts.
@@ -40,5 +42,9 @@ class NewTestListener {
 	@BeforeTestSuite
 	def sampleBeforeTestSuite(TestSuiteContext testSuiteContext) {
 		println testSuiteContext.getTestSuiteId()
+		
+		
+		
+		
 	}
 }

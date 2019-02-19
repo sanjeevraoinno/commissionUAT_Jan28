@@ -22,25 +22,27 @@ import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as Cucumber
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(Url)
+WebUI.navigateToUrl(GlobalVariable.BecURL)
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Page_Sales Performance Home/input_username'), Username)
+WebUI.setText(findTestObject('LoginPage/input_Username_username'), GlobalVariable.Bec_UserName)
 
-not_run: WebUI.delay(2)
+WebUI.setText(findTestObject('LoginPage/input_Password_password'), GlobalVariable.Bec_Password)
 
-WebUI.setText(findTestObject('Page_Sales Performance Home/input_password'), Password)
+WebUI.waitForElementClickable(findTestObject('LoginPage/Login_Button'), 2)
 
-WebUI.click(findTestObject('Page_Sales Performance Home/button_Login'))
+WebUI.click(findTestObject('LoginPage/Login_Button'))
 
-WebUI.click(findTestObject('Page_Sales Performance Home/span_Administration_sap-icon'))
+WebUI.waitForPageLoad(2)
 
-WebUI.click(findTestObject('Page_Sales Performance Home/a_Commissions'))
+WebUI.click(findTestObject('MessagesPage/Icon_Apps'))
 
-WebUI.waitForPageLoad(100)
+WebUI.mouseOver(findTestObject('MessagesPage/Link_Commissions'))
 
-WebUI.waitForElementClickable(findTestObject('Page_Callidus Cloud Commissions Man/a_Manage Setup'), 100)
+WebUI.scrollToElement(findTestObject('MessagesPage/Link_Commissions'), 1)
 
-//WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/a_Manage Setup'))
+WebUI.click(findTestObject('MessagesPage/Link_Commissions'))
+
+WebUI.waitForPageLoad(3)
 

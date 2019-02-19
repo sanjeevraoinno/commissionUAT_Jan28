@@ -37,11 +37,11 @@ if (true) {
     if (true) {
         println('User Naviagted to Credit Types screen')
 
-        WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/a_Advanced Search'))
+        WebUI.click(findTestObject('AdvanceSearch_Page/Icon_Advanced Search'))
 
         WebUI.delay(3)
 
-        WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/td_Field Name'))
+        WebUI.click(findTestObject('AdvanceSearch_Page/FieldName_DropDown'))
 
         WebUI.delay(2)
 
@@ -51,23 +51,23 @@ if (true) {
 
         WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/option_credit types id'))
 
-        WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/td_Comparision'))
+        WebUI.click(findTestObject('AdvanceSearch_Page/td_Comparision'))
 
         WebUI.delay(2)
 
-        WebUI.scrollToElement(findTestObject('Page_Callidus Cloud Commissions Man/option_Equals'), 2)
+        WebUI.scrollToElement(findTestObject('AdvanceSearch_Page/option_Equals'), 2)
 
         WebUI.delay(2)
 
-        WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/option_Equals'))
+        WebUI.click(findTestObject('AdvanceSearch_Page/option_Equals'))
 
         WebUI.delay(2)
 
-        WebUI.setText(findTestObject('Page_Callidus Cloud Commissions Man/td_Value'), 'Order')
+        WebUI.setText(findTestObject('AdvanceSearch_Page/td_Value'), 'Order')
 
         WebUI.delay(2)
 
-        WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/input_Apply Search'))
+        WebUI.click(findTestObject('null'))
 
         println('User search for credit types successfull, Testcase , Pass')
     } else {

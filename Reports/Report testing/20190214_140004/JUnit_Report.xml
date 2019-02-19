@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Report testing" time="57" tests="1" failures="0" errors="1">
+   <testsuite name="Report testing" tests="1" failures="0" errors="1" time="57" timestamp="2019-02-14 14:00:08" hostname="skadhulu - PC03UDCK-T440P.callidussoftware.com" id="Test Suites/Report testing">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\skadhulu\\git\\commissionUAT_Jan28\\Reports\\Report testing\\20190214_140004"/>
+         <property name="logFiles" value="C:\\Users\\skadhulu\\git\\commissionUAT_Jan28\\Reports\\Report testing\\20190214_140004\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="skadhulu - PC03UDCK-T440P.callidussoftware.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.237.37"/>
+         <property name="sessionId" value="233def9cc00878d8bf4912076441f3b3"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Testcase number" classname="Test Cases/Testcase number" status="PASSED">
+         <system-out><![CDATA[2019-02-14 14:00:08 - [TEST_CASE][PASSED] - Test Cases/Testcase number: Test Cases/Testcase number
+
+2019-02-14 14:00:08 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-02-14 14:00:08 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-02-14 14:00:08 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-02-14 14:00:08 - [TEST_STEP][PASSED] - comment("Executint test case number 100"): Executint test case number 100
+
+2019-02-14 14:00:08 - [MESSAGE][INFO] - Executint test case number 100]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Commission Login" classname="Test Cases/Commission Login" status="ERROR">
+         <error type="ERROR" message="Test Cases/Commission Login FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX for class: Script1536051665039
+	at Commission Login.run(Commission Login:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550133004724.run(TempTestSuite1550133004724.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-14 14:00:08 - [TEST_CASE][ERROR] - Test Cases/Commission Login: Test Cases/Commission Login FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX for class: Script1536051665039
+	at Commission Login.run(Commission Login:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550133004724.run(TempTestSuite1550133004724.groovy:36)
+
+
+2019-02-14 14:00:08 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-02-14 14:00:08 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-02-14 14:00:08 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-02-14 14:00:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-02-14 14:00:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-14 14:00:09 - [MESSAGE][INFO] - Action delay is set to 1 seconds
+
+2019-02-14 14:00:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-14 14:00:15 - [TEST_STEP][PASSED] - navigateToUrl(Url): Navigate to 'https://biz3-tst.callidusondemand.com/SalesPortal/#!/' successfully
+
+2019-02-14 14:00:50 - [MESSAGE][PASSED] - Navigate to 'https://biz3-tst.callidusondemand.com/SalesPortal/#!/' successfully
+
+2019-02-14 14:00:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-02-14 14:00:52 - [MESSAGE][PASSED] - Current window maximized
+
+2019-02-14 14:00:52 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Sales Performance Home/input_username"), Username): Text 'skadhulu@calliduscloud.com' is set on object 'Object Repository/Page_Sales Performance Home/input_username'
+
+2019-02-14 14:00:57 - [MESSAGE][PASSED] - Text 'skadhulu@calliduscloud.com' is set on object 'Object Repository/Page_Sales Performance Home/input_username'
+
+2019-02-14 14:00:57 - [TEST_STEP][NOT_RUN] - delay(2): NOT_RUN: delay(2)
+
+2019-02-14 14:00:57 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(2)
+
+2019-02-14 14:00:57 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Sales Performance Home/input_password"), Password): Text 'Vinayaka@1254' is set on object 'Object Repository/Page_Sales Performance Home/input_password'
+
+2019-02-14 14:01:01 - [MESSAGE][PASSED] - Text 'Vinayaka@1254' is set on object 'Object Repository/Page_Sales Performance Home/input_password'
+
+2019-02-14 14:01:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_Sales Performance Home/button_Login")): Object: 'Object Repository/Page_Sales Performance Home/button_Login' is clicked on
+
+2019-02-14 14:01:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sales Performance Home/button_Login' is clicked on
+
+2019-02-14 14:01:03 - [TEST_STEP][ERROR] - comment(XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX): comment(XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX) FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX for class: Script1536051665039
+	at Commission Login.run(Commission Login:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550133004724.run(TempTestSuite1550133004724.groovy:36)
+
+
+2019-02-14 14:01:03 - [MESSAGE][ERROR] - comment(XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX) FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX for class: Script1536051665039
+	at Commission Login.run(Commission Login:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550133004724.run(TempTestSuite1550133004724.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-02-14 14:00:08 - [TEST_CASE][ERROR] - Test Cases/Commission Login: Test Cases/Commission Login FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX for class: Script1536051665039
+	at Commission Login.run(Commission Login:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550133004724.run(TempTestSuite1550133004724.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-14 14:00:08 - [TEST_SUITE][ERROR] - Report testing: Test Cases/Commission Login FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX for class: Script1536051665039
+	at Commission Login.run(Commission Login:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550133004724.run(TempTestSuite1550133004724.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-02-14 14:00:08 - [TEST_SUITE][ERROR] - Report testing: Test Cases/Commission Login FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX for class: Script1536051665039
+	at Commission Login.run(Commission Login:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550133004724.run(TempTestSuite1550133004724.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>
