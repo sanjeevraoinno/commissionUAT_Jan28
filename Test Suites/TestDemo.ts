@@ -14,13 +14,13 @@
       <guid>653a256e-2551-4cba-ab42-4360b781282c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Commission Login</testCaseId>
+      <testCaseId>Test Cases/Commission Login_Logout/Commission Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c349a562-59b5-44d5-b833-cd17085d1f21</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Deposit Rule exists in the system</testCaseId>
+      <testCaseId>Test Cases/Plan_Workspace/Deposit Rule exists in the system</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -32,7 +32,7 @@
       <guid>d275f4cd-a2b7-414c-8012-4fc4481bcbe2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Earning Codes exist in the system</testCaseId>
+      <testCaseId>Test Cases/Global_values_Workspace/Earning Codes exist in the system</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -44,7 +44,7 @@
       <guid>cc7c4630-eacb-4990-a271-e435b753e66a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Credit Rule(name of the Credit Rule) exists in the system</testCaseId>
+      <testCaseId>Test Cases/Plan_Workspace/Credit Rules name exists in the system</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -56,7 +56,7 @@
       <guid>2d7c3bcc-3e22-4491-9bd2-8f254c224617</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Earning Groups exist in the system</testCaseId>
+      <testCaseId>Test Cases/Global_values_Workspace/Earning Groups exist in the system</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -68,6 +68,6 @@
       <guid>06871d47-08d0-4090-8435-24d167eae69b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Commission Logout</testCaseId>
+      <testCaseId>Test Cases/Commission Login_Logout/Commission Logout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

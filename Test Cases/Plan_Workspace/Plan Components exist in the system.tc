@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Plan Components exist in the system</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>91693798-ba65-4d8f-bb36-2131233660a4</testCaseGuid>
+   <variable>
+      <defaultValue>'Aggregated Revenue against Territory based on Flat Rate'</defaultValue>
+      <description></description>
+      <id>26cf5322-0bf8-43ef-8d7b-38c62b1bd93e</id>
+      <masked>false</masked>
+      <name>PlanComponentName</name>
+   </variable>
+</TestCaseEntity>

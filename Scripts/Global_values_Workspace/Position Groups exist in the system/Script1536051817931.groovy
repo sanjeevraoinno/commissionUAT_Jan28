@@ -18,68 +18,55 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.callTestCase(findTestCase('Commission Login_Logout/Commission Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.mouseOver(findTestObject('Page_Callidus Cloud Commissions Man/div_ADMINISTRATION'))
 
-WebUI.delay(5)
+WebUI.delay(2)
 
-if (true) {
-    println('User is able to naviagte to Administration tab')
+println('User is able to naviagte to Administration tab')
 
-    WebUI.scrollToElement(findTestObject('Page_Callidus Cloud Commissions Man/a_Credit Types'), 2)
+WebUI.scrollToElement(findTestObject('Page_Callidus Cloud Commissions Man/a_Position Groups'), 7)
 
-    WebUI.delay(4)
+WebUI.delay(4)
 
-    WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/a_Credit Types'))
+WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/a_Position Groups'))
 
-    if (true) {
-        println('User Naviagted to Credit Types screen')
+println('User Naviagted to Position Groups screen')
 
-        WebUI.click(findTestObject('AdvanceSearch_Page/Icon_Advanced Search'))
+WebUI.click(findTestObject('AdvanceSearch_Page/Icon_Advanced Search'))
 
-        WebUI.delay(3)
+WebUI.delay(3)
 
-        WebUI.click(findTestObject('AdvanceSearch_Page/FieldName_DropDown'))
+WebUI.click(findTestObject('AdvanceSearch_Page/FieldName_DropDown'))
 
-        WebUI.delay(2)
+WebUI.delay(2)
 
-        WebUI.scrollToElement(findTestObject('Page_Callidus Cloud Commissions Man/option_credit types id'), 2)
+WebUI.scrollToElement(findTestObject('Page_Callidus Cloud Commissions Man/option_Position Groups'), 3)
 
-        WebUI.delay(2)
+WebUI.delay(2)
 
-        WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/option_credit types id'))
+WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/option_Position Groups'))
 
-        WebUI.click(findTestObject('AdvanceSearch_Page/td_Comparision'))
+WebUI.click(findTestObject('AdvanceSearch_Page/td_Comparision'))
 
-        WebUI.delay(2)
+WebUI.delay(2)
 
-        WebUI.scrollToElement(findTestObject('AdvanceSearch_Page/option_Equals'), 2)
+WebUI.scrollToElement(findTestObject('AdvanceSearch_Page/option_Equals'), 2)
 
-        WebUI.delay(2)
+WebUI.delay(2)
 
-        WebUI.click(findTestObject('AdvanceSearch_Page/option_Equals'))
+WebUI.click(findTestObject('AdvanceSearch_Page/option_Equals'))
 
-        WebUI.delay(2)
+WebUI.delay(2)
 
-        WebUI.setText(findTestObject('AdvanceSearch_Page/td_Value'), 'Order')
+WebUI.setText(findTestObject('AdvanceSearch_Page/td_Value'), Pos_Grp)
 
-        WebUI.delay(2)
+WebUI.delay(2)
 
-        WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('null'))
 
-        println('User search for credit types successfull, Testcase , Pass')
-    } else {
-        false
-    }
-    
-    println('Credit Types screen is unavailable Test case FAIL')
-} else {
-    false.call({ 
-            println('Administration tab is unavailable, Test case Fail')
-        })
-}
-
-WebUI.callTestCase(findTestCase('Commission Login_Logout/Commission Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+CustomKeywords.'globalkeywords.record.RecordNotFound'()
 

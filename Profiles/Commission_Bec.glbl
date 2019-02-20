@@ -6,17 +6,17 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://bkmn-dev.callidusondemand.com/SalesPortal/#!/'</initValue>
+      <initValue>'https://biz3-tst.callidusondemand.com/SalesPortal/#!/'</initValue>
       <name>BecURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'srao'</initValue>
+      <initValue>'rkulkarn@calliduscloud.com'</initValue>
       <name>Bec_UserName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'India123'</initValue>
+      <initValue>'Augg@1234'</initValue>
       <name>Bec_Password</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

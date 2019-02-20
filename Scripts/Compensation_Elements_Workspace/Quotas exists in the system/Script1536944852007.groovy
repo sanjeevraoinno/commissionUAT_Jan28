@@ -15,15 +15,51 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Commission Login_Logout/Commission Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('Page_Callidus Cloud Commissions Man/div_ADMINISTRATION'))
-
-WebUI.delay(2)
-
-WebUI.scrollToElement(findTestObject('Page_Callidus Cloud Commissions Man/a_Earning Groups'), 4)
+WebUI.mouseOver(findTestObject('Page_Callidus Cloud Commissions Man/div_PLAN'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/a_Earning Groups'))
+println('User is able to naviagte to Plan tab')
 
-WebUI.acceptAlert()
+WebUI.scrollToElement(findTestObject('Page_Plan Tab/a_Quota'), 4)
+
+WebUI.delay(4)
+
+WebUI.click(findTestObject('Page_Plan Tab/a_Quota'))
+
+println('User Naviagted to Quotas screen')
+
+WebUI.click(findTestObject('AdvanceSearch_Page/Icon_Advanced Search'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('AdvanceSearch_Page/FieldName_DropDown'))
+
+WebUI.delay(2)
+
+WebUI.scrollToElement(findTestObject('Page_Plan Tab/option_QuotaName'), 4)
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Page_Plan Tab/option_QuotaName'))
+
+WebUI.click(findTestObject('AdvanceSearch_Page/td_Comparision'))
+
+WebUI.delay(2)
+
+WebUI.scrollToElement(findTestObject('AdvanceSearch_Page/option_Equals'), 2)
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('AdvanceSearch_Page/option_Equals'))
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('AdvanceSearch_Page/td_Value'), Quotas)
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('null'))
+
+CustomKeywords.'globalkeywords.record.RecordNotFound'()
 

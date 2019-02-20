@@ -15,15 +15,25 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Commission Login_Logout/Commission Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('Page_Callidus Cloud Commissions Man/div_ADMINISTRATION'))
-
-WebUI.delay(2)
-
-WebUI.scrollToElement(findTestObject('Page_Callidus Cloud Commissions Man/a_Earning Groups'), 4)
+WebUI.mouseOver(findTestObject('HomePage_Commission/Commission_Organizationdata/Icon_Organization'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/a_Earning Groups'))
+WebUI.scrollToElement(findTestObject('HomePage_Commission/Commission_Organizationdata/Link_Relationships'), 3)
 
-WebUI.acceptAlert()
+WebUI.delay(5)
+
+WebUI.click(findTestObject('HomePage_Commission/Commission_Organizationdata/Link_Relationships'))
+
+WebUI.click(findTestObject('Page_Organization Tab/Span_New Roll Type'))
+
+WebUI.setText(findTestObject('Page_Organization Tab/input_Roll Type Name'), 'NewRollTypeList1')
+
+WebUI.click(findTestObject('Object Repository/Page_Callidus Cloud Commissions Man/img'))
+
+WebUI.click(findTestObject('Object Repository/Page_Callidus Cloud Commissions Man/span_NewRollTypeList1(0)'))
+
+WebUI.click(findTestObject('Object Repository/Page_Callidus Cloud Commissions Man/span_Cancel_icon-file-plus2 co'))
+
+WebUI.click(findTestObject('Object Repository/Page_Callidus Cloud Commissions Man/span_Ok'))
 

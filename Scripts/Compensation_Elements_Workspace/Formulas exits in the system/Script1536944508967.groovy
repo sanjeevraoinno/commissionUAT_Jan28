@@ -12,18 +12,36 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 WebUI.callTestCase(findTestCase('Commission Login_Logout/Commission Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('Page_Callidus Cloud Commissions Man/div_ADMINISTRATION'))
-
-WebUI.delay(2)
-
-WebUI.scrollToElement(findTestObject('Page_Callidus Cloud Commissions Man/a_Earning Groups'), 4)
+WebUI.mouseOver(findTestObject('Page_Callidus Cloud Commissions Man/div_PLAN'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/a_Earning Groups'))
+WebUI.scrollToElement(findTestObject('Page_Plan Tab/a_Formulas'), 9)
 
-WebUI.acceptAlert()
+WebUI.click(findTestObject('Page_Plan Tab/a_Formulas'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('AdvanceSearch_Page/Icon_Advanced Search'))
+
+WebUI.click(findTestObject('AdvanceSearch_Page/FieldName_DropDown'))
+
+WebUI.scrollToElement(findTestObject('Page_Plan Tab/a_FormulaName'), 4)
+
+WebUI.click(findTestObject('Page_Plan Tab/a_FormulaName'))
+
+WebUI.click(findTestObject('AdvanceSearch_Page/td_Comparision'))
+
+WebUI.scrollToElement(findTestObject('AdvanceSearch_Page/option_Equals'), 2)
+
+WebUI.click(findTestObject('AdvanceSearch_Page/option_Equals'))
+
+WebUI.setText(findTestObject('AdvanceSearch_Page/td_Value'), Formulas)
+
+WebUI.click(findTestObject('null'))
+
+CustomKeywords.'globalkeywords.record.RecordNotFound'()
 

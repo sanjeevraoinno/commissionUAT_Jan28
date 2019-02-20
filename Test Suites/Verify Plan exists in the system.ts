@@ -14,19 +14,19 @@
       <guid>e5693ed5-946e-43db-aaf7-4202b99ad426</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Commission Login</testCaseId>
+      <testCaseId>Test Cases/Commission Login_Logout/Commission Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>b7bc6425-bd83-409a-b8c5-4ec4e8f3a8aa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Plans exist in the system</testCaseId>
+      <testCaseId>Test Cases/Plan_Workspace/Plans exist in the system</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>711c18f9-57dd-4d99-b9b2-9e606243555b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/AvanceSeach</testCaseId>
+      <testCaseId>Test Cases/Script_For_Advancesearch/AdvanceSearch</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>7c49c4fb-219c-4e7f-90de-a9255d375337</id>
