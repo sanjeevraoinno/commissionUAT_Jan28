@@ -22,51 +22,40 @@ import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as Cucumber
 
 WebUI.callTestCase(findTestCase('Commission Login_Logout/Commission Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-//WebUI.mouseOver(findTestObject('Page_Callidus Cloud Commissions Man/div_PLAN'))
+WebUI.mouseOver(findTestObject('HomePage_Commission/Commission_CompensationElements/Icon_Compensationelement'))
 
-not_run: WebUI.delay(2)
+WebUI.waitForElementPresent(findTestObject('HomePage_Commission/Commission_CompensationElements/Icon_Compensationelement'), 
+    3)
 
-not_run: println('User is able to naviagte to Plan tab')
+WebUI.click(findTestObject('HomePage_Commission/Commission_CompensationElements/Icon_Compensationelement'))
 
-WebUI.scrollToElement(findTestObject('Page_Callidus Cloud Commissions Man/a_Variables'), 7)
+println('User is able to naviagte to Plan tab')
 
-not_run: WebUI.delay(4)
+WebUI.waitForElementVisible(findTestObject('HomePage_Commission/Commission_CompensationElements/Link_Variables'), 7)
 
-WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/a_Variables'))
+WebUI.mouseOver(findTestObject('HomePage_Commission/Commission_CompensationElements/Link_Variables'), FailureHandling.STOP_ON_FAILURE)
 
-not_run: println('User Naviagted to Varaible screen')
+WebUI.click(findTestObject('HomePage_Commission/Commission_CompensationElements/Link_Variables'))
+
+println('User Naviagted to Varaible screen')
 
 WebUI.click(findTestObject('AdvanceSearch_Page/Icon_Advanced Search'))
 
-not_run: WebUI.delay(3)
-
 WebUI.click(findTestObject('AdvanceSearch_Page/FieldName_DropDown'))
 
-not_run: WebUI.delay(2)
+WebUI.scrollToElement(findTestObject('AdvanceSearch_Page/option_Value'), 4)
 
-WebUI.scrollToElement(findTestObject('Page_Callidus Cloud Commissions Man/option_Variables'), 4)
-
-not_run: WebUI.delay(2)
-
-WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/option_Variables'))
+WebUI.click(findTestObject('AdvanceSearch_Page/option_Value'))
 
 WebUI.click(findTestObject('AdvanceSearch_Page/td_Comparision'))
 
-not_run: WebUI.delay(2)
-
 WebUI.scrollToElement(findTestObject('AdvanceSearch_Page/option_Equals'), 2)
-
-not_run: WebUI.delay(2)
 
 WebUI.click(findTestObject('AdvanceSearch_Page/option_Equals'))
 
-not_run: WebUI.delay(2)
-
 WebUI.setText(findTestObject('AdvanceSearch_Page/td_Value'), FV_Var)
 
-not_run: WebUI.delay(2)
-
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('AdvanceSearch_Page/AppySearch_button'))
 
 CustomKeywords.'globalkeywords.record.RecordNotFound'()
 

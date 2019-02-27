@@ -17,21 +17,26 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 WebUI.callTestCase(findTestCase('Commission Login_Logout/Commission Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('Page_Callidus Cloud Commissions Man/div_PLAN'))
+WebUI.mouseOver(findTestObject('HomePage_Commission/Commission_CompensationElements/Icon_Compensationelement'))
 
-WebUI.delay(5)
+WebUI.waitForElementPresent(findTestObject('HomePage_Commission/Commission_CompensationElements/Icon_Compensationelement'), 
+    3)
 
-WebUI.scrollToElement(findTestObject('Page_Plan Tab/a_Formulas'), 9)
+WebUI.click(findTestObject('HomePage_Commission/Commission_CompensationElements/Icon_Compensationelement'))
 
-WebUI.click(findTestObject('Page_Plan Tab/a_Formulas'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('HomePage_Commission/Commission_CompensationElements/Link_Formulas'), 2)
+
+WebUI.mouseOver(findTestObject('HomePage_Commission/Commission_CompensationElements/Link_Formulas'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('HomePage_Commission/Commission_CompensationElements/Link_Formulas'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('AdvanceSearch_Page/Icon_Advanced Search'))
 
 WebUI.click(findTestObject('AdvanceSearch_Page/FieldName_DropDown'))
 
-WebUI.scrollToElement(findTestObject('Page_Plan Tab/a_FormulaName'), 4)
+WebUI.scrollToElement(findTestObject('AdvanceSearch_Page/Option_FormulaName'), 4)
 
-WebUI.click(findTestObject('Page_Plan Tab/a_FormulaName'))
+WebUI.click(findTestObject('AdvanceSearch_Page/Option_FormulaName'))
 
 WebUI.click(findTestObject('AdvanceSearch_Page/td_Comparision'))
 
@@ -41,7 +46,7 @@ WebUI.click(findTestObject('AdvanceSearch_Page/option_Equals'))
 
 WebUI.setText(findTestObject('AdvanceSearch_Page/td_Value'), Formulas)
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('AdvanceSearch_Page/AppySearch_button'))
 
 CustomKeywords.'globalkeywords.record.RecordNotFound'()
 

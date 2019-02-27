@@ -13,57 +13,43 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-not_run: WebUI.callTestCase(findTestCase('Commission Login_Logout/Commission Login'), [('Password') : 'Augg@1234', ('Username') : 'rkulkarn@calliduscloud.com'
-        , ('Url') : 'https://biz3-tst.callidusondemand.com/SalesPortal/#!/'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Commission Login_Logout/Commission Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('null'), [('Url') : 'https://ca1-lvcomapp-int6.callidussoftware.com:444/SalesPortal/#!/'
-        , ('Username') : 'PortalAdmin', ('Password') : 'PortalAdmin'], FailureHandling.STOP_ON_FAILURE)
+WebUI.mouseOver(findTestObject('HomePage_Commission/Commission_Security/Icon_security'))
 
-WebUI.mouseOver(findTestObject('Page_Callidus Cloud Commissions Man/div_ADMINISTRATION'))
+WebUI.waitForElementPresent(findTestObject('HomePage_Commission/Commission_Security/Icon_security'), 8)
 
-WebUI.delay(3)
+WebUI.click(findTestObject('HomePage_Commission/Commission_Security/Icon_security'))
 
 println('User is able to naviagte to Administration tab')
 
-WebUI.scrollToElement(findTestObject('Page_Callidus Cloud Commissions Man/a_Users'), 15)
+WebUI.waitForElementVisible(findTestObject('HomePage_Commission/Commission_Security/Link_Users'), 3)
 
-WebUI.delay(4)
+WebUI.mouseOver(findTestObject('HomePage_Commission/Commission_Security/Link_Users'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/a_Users'))
+WebUI.click(findTestObject('HomePage_Commission/Commission_Security/Link_Users'))
 
 println('User Naviagted to Users screen')
 
-WebUI.click(findTestObject('AdvanceSearch_Page/Icon_Advanced Search'))
+WebUI.scrollToPosition(0, 0)
 
-WebUI.delay(3)
+WebUI.click(findTestObject('AdvanceSearch_Page/Icon_Advanced Search'))
 
 WebUI.click(findTestObject('AdvanceSearch_Page/FieldName_DropDown'))
 
-WebUI.delay(2)
+WebUI.scrollToElement(findTestObject('AdvanceSearch_Page/option_UserName'), 7)
 
-WebUI.scrollToElement(findTestObject('Page_Callidus Cloud Commissions Man/option_UserName'), 7)
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/option_UserName'))
+WebUI.click(findTestObject('AdvanceSearch_Page/option_UserName'))
 
 WebUI.click(findTestObject('AdvanceSearch_Page/td_Comparision'))
 
-WebUI.delay(2)
-
 WebUI.scrollToElement(findTestObject('AdvanceSearch_Page/option_Equals'), 2)
-
-WebUI.delay(2)
 
 WebUI.click(findTestObject('AdvanceSearch_Page/option_Equals'))
 
-WebUI.delay(2)
-
 WebUI.setText(findTestObject('AdvanceSearch_Page/td_Value'), UserName)
 
-WebUI.delay(2)
-
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('AdvanceSearch_Page/AppySearch_button'))
 
 CustomKeywords.'globalkeywords.record.RecordNotFound'()
 

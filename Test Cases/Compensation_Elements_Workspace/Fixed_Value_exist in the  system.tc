@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>ef0d892f-5b9d-4697-8f0b-9007b8b8111d</testCaseGuid>
    <variable>
-      <defaultValue>'FV_per1'</defaultValue>
+      <defaultValue>'HC Target Value_G'</defaultValue>
       <description></description>
       <id>3c73e33b-26ed-403b-9a7e-29a47870a7a8</id>
       <masked>false</masked>

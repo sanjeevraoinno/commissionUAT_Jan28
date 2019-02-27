@@ -23,17 +23,17 @@ import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as Cucumber
 
 WebUI.callTestCase(findTestCase('Commission Login_Logout/Commission Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('HomePage_Commission/Icon_GlobalValues'), 5)
+WebUI.waitForElementVisible(findTestObject('HomePage_Commission/Commission_Globalvalues/Icon_GlobalValues'), 5)
 
-WebUI.click(findTestObject('HomePage_Commission/Icon_GlobalValues'))
+WebUI.click(findTestObject('HomePage_Commission/Commission_Globalvalues/Icon_GlobalValues'))
 
 println('User is able to naviagte to Global Variable Icon')
 
-WebUI.mouseOver(findTestObject('Globalvalues_Page/Link_EventTypes'), FailureHandling.STOP_ON_FAILURE)
+WebUI.mouseOver(findTestObject('HomePage_Commission/Commission_Globalvalues/Link_EventTypes'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Globalvalues_Page/Link_EventTypes'), 5)
+WebUI.waitForElementClickable(findTestObject('HomePage_Commission/Commission_Globalvalues/Link_EventTypes'), 5)
 
-WebUI.click(findTestObject('Globalvalues_Page/Link_EventTypes'))
+WebUI.click(findTestObject('HomePage_Commission/Commission_Globalvalues/Link_EventTypes'))
 
 println('User Naviagted to Event Type screen')
 

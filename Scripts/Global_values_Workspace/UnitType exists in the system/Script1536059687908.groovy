@@ -20,56 +20,43 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-not_run: WebUI.callTestCase(findTestCase('Commission Login_Logout/Commission Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Commission Login_Logout/Commission Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('null'), [('Url') : 'https://ca1-lvcomapp-int6.callidussoftware.com:444/SalesPortal/#!/'
-        , ('Username') : 'PortalAdmin', ('Password') : 'PortalAdmin'], FailureHandling.STOP_ON_FAILURE)
+WebUI.mouseOver(findTestObject('HomePage_Commission/Commission_Globalvalues/Icon_GlobalValues'))
 
-WebUI.mouseOver(findTestObject('Page_Callidus Cloud Commissions Man/div_ADMINISTRATION'))
+WebUI.waitForElementPresent(findTestObject('HomePage_Commission/Commission_Globalvalues/Icon_GlobalValues'), 7)
 
-WebUI.delay(3)
+WebUI.click(findTestObject('HomePage_Commission/Commission_Globalvalues/Icon_GlobalValues'))
 
 println('User is able to naviagte to Administration tab')
 
-WebUI.scrollToElement(findTestObject('Page_Callidus Cloud Commissions Man/a_Unit Types'), 9)
+WebUI.waitForElementVisible(findTestObject('HomePage_Commission/Commission_Globalvalues/Link_Unit Types'), 9)
 
-WebUI.delay(4)
+WebUI.mouseOver(findTestObject('HomePage_Commission/Commission_Globalvalues/Link_Unit Types'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/a_Unit Types'))
+WebUI.click(findTestObject('HomePage_Commission/Commission_Globalvalues/Link_Unit Types'))
 
 println('User Naviagted to Unit Types screen')
 
-WebUI.click(findTestObject('AdvanceSearch_Page/Icon_Advanced Search'))
+WebUI.scrollToPosition(0, 0)
 
-WebUI.delay(3)
+WebUI.click(findTestObject('AdvanceSearch_Page/Icon_Advanced Search'))
 
 WebUI.click(findTestObject('AdvanceSearch_Page/FieldName_DropDown'))
 
-WebUI.delay(2)
+WebUI.scrollToElement(findTestObject('AdvanceSearch_Page/option_Unit Type name'), 4)
 
-WebUI.scrollToElement(findTestObject('Page_Callidus Cloud Commissions Man/option_Unit Type name'), 4)
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/option_Unit Type name'))
+WebUI.click(findTestObject('AdvanceSearch_Page/option_Unit Type name'))
 
 WebUI.click(findTestObject('AdvanceSearch_Page/td_Comparision'))
 
-WebUI.delay(2)
-
 WebUI.scrollToElement(findTestObject('AdvanceSearch_Page/option_Equals'), 2)
-
-WebUI.delay(2)
 
 WebUI.click(findTestObject('AdvanceSearch_Page/option_Equals'))
 
-WebUI.delay(2)
-
 WebUI.setText(findTestObject('AdvanceSearch_Page/td_Value'), UnitType)
 
-WebUI.delay(2)
-
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('AdvanceSearch_Page/AppySearch_button'))
 
 CustomKeywords.'globalkeywords.record.RecordNotFound'()
 

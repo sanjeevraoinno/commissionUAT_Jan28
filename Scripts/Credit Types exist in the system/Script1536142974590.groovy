@@ -19,20 +19,20 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Commission Login_Logout/Commission Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('null'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('Page_Callidus Cloud Commissions Man/div_ADMINISTRATION'))
+WebUI.mouseOver(findTestObject('null'))
 
 WebUI.delay(5)
 
 if (true) {
     println('User is able to naviagte to Administration tab')
 
-    WebUI.scrollToElement(findTestObject('Page_Callidus Cloud Commissions Man/a_Credit Types'), 2)
+    WebUI.scrollToElement(findTestObject('HomePage_Commission/Commission_Globalvalues/Link_Credit Types'), 2)
 
     WebUI.delay(4)
 
-    WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/a_Credit Types'))
+    WebUI.click(findTestObject('HomePage_Commission/Commission_Globalvalues/Link_Credit Types'))
 
     if (true) {
         println('User Naviagted to Credit Types screen')
@@ -45,11 +45,11 @@ if (true) {
 
         WebUI.delay(2)
 
-        WebUI.scrollToElement(findTestObject('Page_Callidus Cloud Commissions Man/option_credit types id'), 2)
+        WebUI.scrollToElement(findTestObject('AdvanceSearch_Page/option_credit types id'), 2)
 
         WebUI.delay(2)
 
-        WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/option_credit types id'))
+        WebUI.click(findTestObject('AdvanceSearch_Page/option_credit types id'))
 
         WebUI.click(findTestObject('AdvanceSearch_Page/td_Comparision'))
 

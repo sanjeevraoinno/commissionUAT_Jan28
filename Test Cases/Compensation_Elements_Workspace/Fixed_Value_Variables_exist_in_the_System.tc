@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>44d892ad-13a9-44d6-a7a3-c09a5b575c09</testCaseGuid>
    <variable>
-      <defaultValue>'FVV_Trty'</defaultValue>
+      <defaultValue>'HC Flat Rate Multiplier Variable_G'</defaultValue>
       <description></description>
       <id>4fa89983-a475-4361-8025-90c9cd13d877</id>
       <masked>false</masked>

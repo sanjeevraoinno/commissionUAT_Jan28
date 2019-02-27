@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>2f7025e8-0ddf-4a54-a947-f582e47f6d8c</testCaseGuid>
    <variable>
-      <defaultValue>'Var_T_Demo3'</defaultValue>
+      <defaultValue>'VTD'</defaultValue>
       <description></description>
       <id>df9cd5e8-a50d-411a-b5dd-cb35c50da836</id>
       <masked>false</masked>

@@ -20,63 +20,43 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-not_run: WebUI.callTestCase(findTestCase('Commission Login_Logout/Commission Login'), [('Password') : '', ('Username') : '', ('Url') : ''], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Commission Login_Logout/Commission Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.callTestCase(findTestCase('Commission Login_Logout/Commission Login'), [('Password') : 'Kiran09@@', ('Username') : 'kikosana@calliduscloud.com'
-        , ('Url') : 'https://biz3-tst.callidusondemand.com/SalesPortal/#!/'], FailureHandling.STOP_ON_FAILURE)
+WebUI.mouseOver(findTestObject('HomePage_Commission/Commission_Globalvalues/Icon_GlobalValues'))
 
-WebUI.callTestCase(findTestCase('null'), [('Url') : 'https://ca1-lvcomapp-int6.callidussoftware.com:444/SalesPortal/#!/'
-        , ('Username') : 'PortalAdmin', ('Password') : 'PortalAdmin'], FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementPresent(findTestObject('HomePage_Commission/Commission_Globalvalues/Icon_GlobalValues'), 7)
 
-not_run: WebUI.callTestCase(findTestCase('Commission Login_Logout/Commission Login'), [:], FailureHandling.STOP_ON_FAILURE)
-
-not_run: WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/Manage Set up_Link'))
-
-WebUI.mouseOver(findTestObject('Page_Callidus Cloud Commissions Man/div_ADMINISTRATION'))
-
-WebUI.delay(2)
+WebUI.click(findTestObject('HomePage_Commission/Commission_Globalvalues/Icon_GlobalValues'))
 
 println('User is able to naviagte to Administration tab')
 
-WebUI.scrollToElement(findTestObject('Page_Callidus Cloud Commissions Man/a_Reason Codes'), 8)
+WebUI.waitForElementVisible(findTestObject('HomePage_Commission/Commission_Globalvalues/Link_Reason Codes'), 8)
 
-WebUI.delay(4)
+WebUI.mouseOver(findTestObject('HomePage_Commission/Commission_Globalvalues/Link_Reason Codes'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/a_Reason Codes'))
+WebUI.click(findTestObject('HomePage_Commission/Commission_Globalvalues/Link_Reason Codes'))
 
 println('User Naviagted to Reason Codes screen')
 
-WebUI.click(findTestObject('AdvanceSearch_Page/Icon_Advanced Search'))
+WebUI.scrollToPosition(0, 0)
 
-WebUI.delay(3)
+WebUI.click(findTestObject('AdvanceSearch_Page/Icon_Advanced Search'))
 
 WebUI.click(findTestObject('AdvanceSearch_Page/FieldName_DropDown'))
 
-WebUI.delay(2)
+WebUI.scrollToElement(findTestObject('AdvanceSearch_Page/option_Reason Code id'), 3)
 
-WebUI.scrollToElement(findTestObject('Page_Callidus Cloud Commissions Man/option_Reason Code id'), 3)
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/option_Reason Code id'))
+WebUI.click(findTestObject('AdvanceSearch_Page/option_Reason Code id'))
 
 WebUI.click(findTestObject('AdvanceSearch_Page/td_Comparision'))
 
-WebUI.delay(2)
-
 WebUI.scrollToElement(findTestObject('AdvanceSearch_Page/option_Equals'), 2)
-
-WebUI.delay(2)
 
 WebUI.click(findTestObject('AdvanceSearch_Page/option_Equals'))
 
-WebUI.delay(2)
-
 WebUI.setText(findTestObject('AdvanceSearch_Page/td_Value'), Reason_codes)
 
-WebUI.delay(2)
-
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('AdvanceSearch_Page/AppySearch_button'))
 
 CustomKeywords.'globalkeywords.record.RecordNotFound'()
 

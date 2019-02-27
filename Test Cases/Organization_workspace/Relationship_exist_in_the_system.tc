@@ -5,4 +5,25 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>7e5d2278-bafe-45bf-9283-c4495be66097</testCaseGuid>
+   <variable>
+      <defaultValue>'Pos1'</defaultValue>
+      <description></description>
+      <id>64824454-206f-471c-8464-85580e2b3bc5</id>
+      <masked>false</masked>
+      <name>Position_val1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Pos2'</defaultValue>
+      <description></description>
+      <id>d14ea889-b6e1-46a4-8a4c-730283be276e</id>
+      <masked>false</masked>
+      <name>Position_val2</name>
+   </variable>
+   <variable>
+      <defaultValue>'Rolltype1'</defaultValue>
+      <description></description>
+      <id>562aefaf-d887-45f2-b34b-1b30b1ee928a</id>
+      <masked>false</masked>
+      <name>New_roll_type</name>
+   </variable>
 </TestCaseEntity>

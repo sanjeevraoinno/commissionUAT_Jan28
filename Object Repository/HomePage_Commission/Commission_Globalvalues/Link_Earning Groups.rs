@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Field_name</name>
+   <name>Link_Earning Groups</name>
    <tag></tag>
-   <elementGuidId>fa73e596-46b5-488d-b70d-2cb6bd492448</elementGuidId>
+   <elementGuidId>8b22f08a-e934-48fc-82e0-6e1f8c1f1e62</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//option[@value='name']</value>
+         <value>//a[@href='#/earninggroup/list']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//option[@value='name']</value>
+      <value>//a[@href='#/earninggroup/list']</value>
    </webElementProperties>
 </WebElementEntity>

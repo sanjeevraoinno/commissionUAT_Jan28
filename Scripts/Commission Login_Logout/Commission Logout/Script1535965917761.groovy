@@ -19,7 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/span_rkulkarncalliduscloud.com'))
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/div_Logout'))
 

@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>8797598a-a97c-472e-92b5-83fdfa8a234e</testCaseGuid>
    <variable>
-      <defaultValue>'AB1'</defaultValue>
+      <defaultValue>'Multiplier_vis'</defaultValue>
       <description></description>
       <id>acdba550-ca59-4eb7-8adb-a440c6fc6ade</id>
       <masked>false</masked>

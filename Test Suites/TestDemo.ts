@@ -11,12 +11,6 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>c512f56f-0536-4025-bad3-e0c35d83c587</testSuiteGuid>
    <testCaseLink>
-      <guid>653a256e-2551-4cba-ab42-4360b781282c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Commission Login_Logout/Commission Login</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>c349a562-59b5-44d5-b833-cd17085d1f21</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Advanced Search</name>
+   <name>Link_Quota</name>
    <tag></tag>
-   <elementGuidId>16370294-cb6f-48e2-b8b4-11dc8236c34e</elementGuidId>
+   <elementGuidId>31652f5d-24bf-4680-9281-283699d53bb6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//a[@href='#/quota/list/false']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,8 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>advanced-search</value>
+      <value>//a[@href='#/quota/list/false']</value>
    </webElementProperties>
 </WebElementEntity>

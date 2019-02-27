@@ -20,54 +20,41 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-not_run: WebUI.callTestCase(findTestCase('Commission Login_Logout/Commission Login'), [('Password') : 'PortalAdmin', ('Username') : 'PortalAdmin'
-        , ('Url') : 'https://ca1-lvcomapp-int6.callidussoftware.com:444/SalesPortal/#!/'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Commission Login_Logout/Commission Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('Page_Callidus Cloud Commissions Man/div_ADMINISTRATION'))
+WebUI.mouseOver(findTestObject('HomePage_Commission/Commission_Globalvalues/Icon_GlobalValues'))
 
-not_run: WebUI.delay(2)
+WebUI.waitForElementPresent(findTestObject('HomePage_Commission/Commission_Globalvalues/Icon_GlobalValues'), 7)
+
+WebUI.click(findTestObject('HomePage_Commission/Commission_Globalvalues/Icon_GlobalValues'))
 
 println('User is able to naviagte to Administration tab')
 
-WebUI.scrollToElement(findTestObject('Page_Callidus Cloud Commissions Man/a_Earning Groups'), 4)
+WebUI.waitForElementVisible(findTestObject('HomePage_Commission/Commission_Globalvalues/Link_Earning Groups'), 4)
 
-not_run: WebUI.delay(4)
+WebUI.mouseOver(findTestObject('HomePage_Commission/Commission_Globalvalues/Link_Earning Groups'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/a_Earning Groups'))
+WebUI.click(findTestObject('HomePage_Commission/Commission_Globalvalues/Link_Earning Groups'))
 
 println('User Naviagted to Earning Groups screen')
 
 WebUI.click(findTestObject('AdvanceSearch_Page/Icon_Advanced Search'))
 
-not_run: WebUI.delay(3)
-
 WebUI.click(findTestObject('AdvanceSearch_Page/FieldName_DropDown'))
 
-not_run: WebUI.delay(2)
+WebUI.scrollToElement(findTestObject('AdvanceSearch_Page/option_Earning Groups'), 3)
 
-WebUI.scrollToElement(findTestObject('Page_Callidus Cloud Commissions Man/option_Earning Groups'), 3)
-
-not_run: WebUI.delay(2)
-
-WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/option_Earning Groups'))
+WebUI.click(findTestObject('AdvanceSearch_Page/option_Earning Groups'))
 
 WebUI.click(findTestObject('AdvanceSearch_Page/td_Comparision'))
 
-not_run: WebUI.delay(2)
-
 WebUI.scrollToElement(findTestObject('AdvanceSearch_Page/option_Equals'), 2)
-
-not_run: WebUI.delay(2)
 
 WebUI.click(findTestObject('AdvanceSearch_Page/option_Equals'))
 
-not_run: WebUI.delay(2)
-
 WebUI.setText(findTestObject('AdvanceSearch_Page/td_Value'), EarningGroupName)
 
-not_run: WebUI.delay(2)
-
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('AdvanceSearch_Page/AppySearch_button'))
 
 CustomKeywords.'globalkeywords.record.RecordNotFound'()
 

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Reason_Codes</name>
+   <name>Reason_Codes exist in the system</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>56a96fdf-e731-421e-bd0f-bebecb9e6843</testCaseGuid>
    <variable>
-      <defaultValue>'TestCode'</defaultValue>
+      <defaultValue>'Test RC'</defaultValue>
       <description></description>
       <id>fb70221e-aa1a-42f9-9ea6-f620cb7b521d</id>
       <masked>false</masked>

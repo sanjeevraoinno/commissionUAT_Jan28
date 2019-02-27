@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>9fb925c2-8b64-4713-b56c-11797aa6fda9</testCaseGuid>
+   <variable>
+      <defaultValue>'LTD'</defaultValue>
+      <description></description>
+      <id>0fdfe7ef-ed30-400b-832c-f2143b7bfa48</id>
+      <masked>false</masked>
+      <name>Lookupvar</name>
+   </variable>
 </TestCaseEntity>

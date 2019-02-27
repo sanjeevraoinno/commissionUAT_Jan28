@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>47cfceea-9c5d-4c69-8fca-369740ce8fd9</testCaseGuid>
    <variable>
-      <defaultValue>'Service Chargeback'</defaultValue>
+      <defaultValue>'Invest'</defaultValue>
       <description></description>
       <id>4160e49b-0720-494b-8e43-02a9252ebabc</id>
       <masked>false</masked>

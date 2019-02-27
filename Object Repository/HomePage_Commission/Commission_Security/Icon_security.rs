@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Formulas Link Under the Plan Tab</description>
-   <name>a_Formulas</name>
+   <description></description>
+   <name>Icon_security</name>
    <tag></tag>
-   <elementGuidId>791d54e9-959c-458b-b236-49a30538cce8</elementGuidId>
+   <elementGuidId>2cd21df6-5114-42d0-8338-b6bbabb16482</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[@href='#/formula/list/false']</value>
+         <value>//a/span[@class='sap-icon-locked cald-ui-menu-icon svelte-1vu4ly0']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[@href='#/formula/list/false']</value>
+      <value>//a/span[@class='sap-icon-locked cald-ui-menu-icon svelte-1vu4ly0']</value>
    </webElementProperties>
 </WebElementEntity>

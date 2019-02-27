@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>ed9e5276-d3e3-4869-ae67-e2bb477a3adc</testCaseGuid>
    <variable>
-      <defaultValue>'FVV_Trty_Per'</defaultValue>
+      <defaultValue>'RTD'</defaultValue>
       <description></description>
       <id>bd6e8f22-1107-4073-aa82-e568b9b1c9b7</id>
       <masked>false</masked>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Plan Tab</description>
-   <name>a_Plan</name>
+   <description></description>
+   <name>Icon_GlobalValues</name>
    <tag></tag>
-   <elementGuidId>f6b88d8d-18a3-4dc4-92a2-3be55cf5c03c</elementGuidId>
+   <elementGuidId>f746f9fd-ed71-4636-8829-ec229b978fbf</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//span[@class='sap-icon-world cald-ui-menu-icon svelte-1vu4ly0']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@class='app-nav plan-menu']</value>
+      <value>//span[@class='sap-icon-world cald-ui-menu-icon svelte-1vu4ly0']</value>
    </webElementProperties>
 </WebElementEntity>

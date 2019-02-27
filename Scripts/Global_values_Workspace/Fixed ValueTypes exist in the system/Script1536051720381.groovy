@@ -23,53 +23,41 @@ import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as Cucumber
 
 WebUI.callTestCase(findTestCase('Commission Login_Logout/Commission Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.delay(6)
+WebUI.mouseOver(findTestObject('HomePage_Commission/Commission_Globalvalues/Icon_GlobalValues'))
 
-WebUI.mouseOver(findTestObject('Page_Callidus Cloud Commissions Man/div_ADMINISTRATION'))
+WebUI.waitForElementPresent(findTestObject('HomePage_Commission/Commission_Globalvalues/Icon_GlobalValues'), 7)
 
-not_run: WebUI.delay(3)
+WebUI.click(findTestObject('HomePage_Commission/Commission_Globalvalues/Icon_GlobalValues'))
 
-not_run: println('User is able to naviagte to Administration tab')
+println('User is able to naviagte to Administration tab')
 
-WebUI.scrollToElement(findTestObject('Page_Callidus Cloud Commissions Man/a_Fixed Value Types'), 6)
+WebUI.waitForElementVisible(findTestObject('HomePage_Commission/Commission_Globalvalues/Link_Fixed Value Types'), 6)
 
-not_run: WebUI.delay(4)
+WebUI.mouseOver(findTestObject('HomePage_Commission/Commission_Globalvalues/Link_Fixed Value Types'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/a_Fixed Value Types'))
+WebUI.click(findTestObject('HomePage_Commission/Commission_Globalvalues/Link_Fixed Value Types'))
 
-not_run: println('User Naviagted to Fixed Value types screen')
+println('User Naviagted to Fixed Value types screen')
+
+WebUI.scrollToPosition(0, 0)
 
 WebUI.click(findTestObject('AdvanceSearch_Page/Icon_Advanced Search'))
 
-not_run: WebUI.delay(3)
-
 WebUI.click(findTestObject('AdvanceSearch_Page/FieldName_DropDown'))
 
-not_run: WebUI.delay(2)
+WebUI.scrollToElement(findTestObject('AdvanceSearch_Page/option_Fixed Value Type id'), 3)
 
-WebUI.scrollToElement(findTestObject('Page_Callidus Cloud Commissions Man/option_Fixed Value Type id'), 3)
-
-not_run: WebUI.delay(2)
-
-WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/option_Fixed Value Type id'))
+WebUI.click(findTestObject('AdvanceSearch_Page/option_Fixed Value Type id'))
 
 WebUI.click(findTestObject('AdvanceSearch_Page/td_Comparision'))
 
-not_run: WebUI.delay(2)
-
 WebUI.scrollToElement(findTestObject('AdvanceSearch_Page/option_Equals'), 2)
-
-not_run: WebUI.delay(2)
 
 WebUI.click(findTestObject('AdvanceSearch_Page/option_Equals'))
 
-not_run: WebUI.delay(2)
-
 WebUI.setText(findTestObject('AdvanceSearch_Page/td_Value'), FV_Type)
 
-not_run: WebUI.delay(2)
-
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('AdvanceSearch_Page/AppySearch_button'))
 
 CustomKeywords.'globalkeywords.record.RecordNotFound'()
 

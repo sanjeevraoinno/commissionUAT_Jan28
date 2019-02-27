@@ -21,23 +21,24 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import org.junit.After as After
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-WebUI.callTestCase(findTestCase('Commission Login_Logout/Commission Login'), [('Password') : 'Kiran09@@', ('Username') : 'kikosana@calliduscloud.com'
-        , ('Url') : 'https://biz3-tst.callidusondemand.com/SalesPortal/#!/'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Commission Login_Logout/Commission Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForPageLoad(5)
 
-WebUI.mouseOver(findTestObject('Page_Callidus Cloud Commissions Man/div_ADMINISTRATION'))
+WebUI.mouseOver(findTestObject('HomePage_Commission/Commission_Globalvalues/Icon_GlobalValues'))
 
-WebUI.delay(5)
+WebUI.waitForElementPresent(findTestObject('HomePage_Commission/Commission_Globalvalues/Icon_GlobalValues'), 7)
 
-WebUI.scrollToElement(findTestObject('Page_Callidus Cloud Commissions Man/Calendar'), 1)
+WebUI.click(findTestObject('HomePage_Commission/Commission_Globalvalues/Icon_GlobalValues'))
 
-WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/Calendar'))
+WebUI.waitForElementVisible(findTestObject('HomePage_Commission/Commission_Globalvalues/Link_Calendar'), 1)
+
+WebUI.mouseOver(findTestObject('HomePage_Commission/Commission_Globalvalues/Link_Calendar'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('HomePage_Commission/Commission_Globalvalues/Link_Calendar'))
 
 if (WebUI.verifyTextPresent('Main Monthly Calendar', true)) {
-    System.out.println('Able to find the record')
-
-    WebUI.callTestCase(findTestCase('Commission Login_Logout/Commission Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+    System.out.println('Able to find the record') // WebUI.callTestCase(findTestCase('Commission Login_Logout/Commission Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 } else {
     System.out.println('No Records Found')
 }

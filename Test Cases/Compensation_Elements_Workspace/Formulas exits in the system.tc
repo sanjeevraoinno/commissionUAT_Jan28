@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>22b9fcae-283e-4638-b847-2001427f7ce0</testCaseGuid>
    <variable>
-      <defaultValue>'TEST_KAT'</defaultValue>
+      <defaultValue>'Quarterly Target Incentive'</defaultValue>
       <description></description>
       <id>c0a66b4d-7999-4ee9-8189-ba68069eff7b</id>
       <masked>false</masked>

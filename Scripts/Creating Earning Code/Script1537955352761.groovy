@@ -13,17 +13,17 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Commission Login_Logout/Commission Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('null'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('Page_Callidus Cloud Commissions Man/div_ADMINISTRATION'))
+WebUI.mouseOver(findTestObject('null'))
 
 WebUI.delay(2)
 
-WebUI.scrollToElement(findTestObject('Page_Callidus Cloud Commissions Man/a_Earning Codes'), 3)
+WebUI.scrollToElement(findTestObject('HomePage_Commission/Commission_Globalvalues/Link_Earning Codes'), 3)
 
 WebUI.delay(4)
 
-WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/a_Earning Codes'))
+WebUI.click(findTestObject('HomePage_Commission/Commission_Globalvalues/Link_Earning Codes'))
 
 WebUI.click(findTestObject('Page_Callidus Cloud Commissions Man/span_Earning Code Summary_icon'))
 

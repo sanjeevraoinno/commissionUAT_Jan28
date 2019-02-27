@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>fbb3f737-1a55-436a-827e-91e7d77dc2d9</testCaseGuid>
    <variable>
-      <defaultValue>'currt'</defaultValue>
+      <defaultValue>'R_T_Demo1'</defaultValue>
       <description></description>
       <id>66f64c54-9083-410f-bd34-cafdd1b8bb15</id>
       <masked>false</masked>
