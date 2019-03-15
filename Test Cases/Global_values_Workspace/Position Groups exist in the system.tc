@@ -12,4 +12,18 @@
       <masked>false</masked>
       <name>Pos_Grp</name>
    </variable>
+   <variable>
+      <defaultValue>'Global Values'</defaultValue>
+      <description></description>
+      <id>028d4f09-8681-437f-8a95-c0e5803f8b63</id>
+      <masked>false</masked>
+      <name>Global_val</name>
+   </variable>
+   <variable>
+      <defaultValue>'Position Groups'</defaultValue>
+      <description></description>
+      <id>92096568-3bcb-4fd0-94bd-43b669091a50</id>
+      <masked>false</masked>
+      <name>PG_txt</name>
+   </variable>
 </TestCaseEntity>

@@ -12,4 +12,18 @@
       <masked>false</masked>
       <name>Position</name>
    </variable>
+   <variable>
+      <defaultValue>'Organization'</defaultValue>
+      <description></description>
+      <id>1ad60a7e-58e2-493b-8ab4-2be212ae0df2</id>
+      <masked>false</masked>
+      <name>ORG</name>
+   </variable>
+   <variable>
+      <defaultValue>'Positions'</defaultValue>
+      <description></description>
+      <id>301eb381-a0c4-481d-a20a-af714d617820</id>
+      <masked>false</masked>
+      <name>Pos_txt</name>
+   </variable>
 </TestCaseEntity>

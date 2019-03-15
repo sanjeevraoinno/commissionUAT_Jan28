@@ -12,4 +12,18 @@
       <masked>false</masked>
       <name>TitleName</name>
    </variable>
+   <variable>
+      <defaultValue>'Organization'</defaultValue>
+      <description></description>
+      <id>9fbe2735-51ad-44ad-8b74-be4d3aa30f7c</id>
+      <masked>false</masked>
+      <name>ORG</name>
+   </variable>
+   <variable>
+      <defaultValue>'Titles'</defaultValue>
+      <description></description>
+      <id>718ba0ef-b45f-4f5d-831e-3c7ee7626cb5</id>
+      <masked>false</masked>
+      <name>Titletxt</name>
+   </variable>
 </TestCaseEntity>

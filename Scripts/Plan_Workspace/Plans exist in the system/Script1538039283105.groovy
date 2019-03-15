@@ -19,6 +19,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import org.junit.After as After
+import org.testng.Assert as Assert
 
 WebUI.callTestCase(findTestCase('Commission Login_Logout/Commission Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -26,17 +28,25 @@ WebUI.mouseOver(findTestObject('HomePage_Commission/Commission_Plandata/Icon_Pla
 
 WebUI.waitForElementPresent(findTestObject('HomePage_Commission/Commission_Plandata/Icon_PlanData'), 2)
 
+'Clicking on Plan data Icon'
 WebUI.click(findTestObject('HomePage_Commission/Commission_Plandata/Icon_PlanData'))
 
-println('User is able to naviagte to Plan tab')
+'Verifying the linktext of Plan data \r\n'
+Assert.assertEquals(WebUI.getText(findTestObject('Assertion_objects/Plan data')), Plan_data)
+
+println('User is able to navigate to Plan tab')
 
 WebUI.waitForElementVisible(findTestObject('HomePage_Commission/Commission_Plandata/Link_Plan'), 2)
 
 WebUI.mouseOver(findTestObject('HomePage_Commission/Commission_Plandata/Link_Plan'))
 
+'Clicking on Plans link\r\n\r\n\r\n'
 WebUI.click(findTestObject('HomePage_Commission/Commission_Plandata/Link_Plan'))
 
-println('User Naviagted to Plans screen')
+'Verifying the linktext of Plans \r\n'
+Assert.assertEquals(WebUI.getText(findTestObject('Assertion_objects/Plans')), Plan_txt)
+
+println('User navigated to Plans screen')
 
 WebUI.callTestCase(findTestCase('Script_For_Advancesearch/AdvanceSearch'), [('SerachString') : 'Plan_Raj'], FailureHandling.STOP_ON_FAILURE)
 

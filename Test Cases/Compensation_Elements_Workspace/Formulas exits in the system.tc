@@ -12,4 +12,18 @@
       <masked>false</masked>
       <name>Formulas</name>
    </variable>
+   <variable>
+      <defaultValue>'Compensation Elements'</defaultValue>
+      <description></description>
+      <id>def9cb60-d9c0-4de0-922e-693d96ff7777</id>
+      <masked>false</masked>
+      <name>Compensation_ele</name>
+   </variable>
+   <variable>
+      <defaultValue>'Formulas'</defaultValue>
+      <description></description>
+      <id>d0f00ec6-e549-4bb9-92b0-666375d1d80a</id>
+      <masked>false</masked>
+      <name>For_Name</name>
+   </variable>
 </TestCaseEntity>

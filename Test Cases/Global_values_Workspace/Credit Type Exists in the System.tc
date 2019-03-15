@@ -12,4 +12,18 @@
       <masked>false</masked>
       <name>Credit_Types</name>
    </variable>
+   <variable>
+      <defaultValue>'Global Values'</defaultValue>
+      <description></description>
+      <id>59ccd9bf-ad10-4547-a90c-6aac942e669e</id>
+      <masked>false</masked>
+      <name>Global_val</name>
+   </variable>
+   <variable>
+      <defaultValue>'Credit Types'</defaultValue>
+      <description></description>
+      <id>3a73cc4c-86a6-47fd-ac82-5ad0fa33f7e6</id>
+      <masked>false</masked>
+      <name>credit_typename</name>
+   </variable>
 </TestCaseEntity>

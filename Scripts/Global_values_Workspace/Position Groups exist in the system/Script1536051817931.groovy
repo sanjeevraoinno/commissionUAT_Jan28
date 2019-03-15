@@ -19,6 +19,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import org.junit.After as After
+import org.testng.Assert as Assert
 
 WebUI.callTestCase(findTestCase('Commission Login_Logout/Commission Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -26,36 +28,55 @@ WebUI.mouseOver(findTestObject('HomePage_Commission/Commission_Globalvalues/Icon
 
 WebUI.waitForElementPresent(findTestObject('HomePage_Commission/Commission_Globalvalues/Icon_GlobalValues'), 7)
 
+'Clicking on Global Values icon\r\n'
 WebUI.click(findTestObject('HomePage_Commission/Commission_Globalvalues/Icon_GlobalValues'))
 
-println('User is able to naviagte to Administration tab')
+'Verifying the linktext of Global Values\r\n'
+Assert.assertEquals(WebUI.getText(findTestObject('Assertion_objects/Global_values')), Global_val)
+
+println('User is able to navigate to Administration tab')
 
 WebUI.waitForElementVisible(findTestObject('HomePage_Commission/Commission_Globalvalues/Link_Position Groups'), 7)
 
 WebUI.mouseOver(findTestObject('HomePage_Commission/Commission_Globalvalues/Link_Position Groups'), FailureHandling.STOP_ON_FAILURE)
 
+'Click on Position Groups link\r\n'
 WebUI.click(findTestObject('HomePage_Commission/Commission_Globalvalues/Link_Position Groups'))
 
-println('User Naviagted to Position Groups screen')
+'Verifying the linktext of Position Groups'
+Assert.assertEquals(WebUI.getText(findTestObject('Assertion_objects/Position Groups')), PG_txt)
+
+println('User Navigated to Position Groups screen')
 
 WebUI.scrollToPosition(0, 0)
 
-WebUI.click(findTestObject('AdvanceSearch_Page/Icon_Advanced Search'))
+'Clicking on advance search icon if given condition gets passed\r\n'
+if (WebUI.verifyElementClickable(findTestObject('AdvanceSearch_Page/Advanced_searchtext'))) {
+    WebUI.click(findTestObject('AdvanceSearch_Page/Icon_Advanced Search'))
 
+    println('Performing advance search')
+} else {
+    println('Failed to perform advance search')
+}
+
+'Clicking on fieldname text box\r\n'
 WebUI.click(findTestObject('AdvanceSearch_Page/FieldName_DropDown'))
 
 WebUI.scrollToElement(findTestObject('AdvanceSearch_Page/option_Position Groups'), 3)
 
 WebUI.click(findTestObject('AdvanceSearch_Page/option_Position Groups'))
 
+'Clicking on comparision text box\r\n'
 WebUI.click(findTestObject('AdvanceSearch_Page/td_Comparision'))
 
 WebUI.scrollToElement(findTestObject('AdvanceSearch_Page/option_Equals'), 2)
 
+'Selecting the equal icon \r\n'
 WebUI.click(findTestObject('AdvanceSearch_Page/option_Equals'))
 
 WebUI.setText(findTestObject('AdvanceSearch_Page/td_Value'), Pos_Grp)
 
+'Clicking on Apply Search button\r\n'
 WebUI.click(findTestObject('AdvanceSearch_Page/AppySearch_button'))
 
 CustomKeywords.'globalkeywords.record.RecordNotFound'()

@@ -19,6 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import org.testng.Assert as Assert
 
 WebUI.openBrowser('')
 
@@ -26,12 +27,19 @@ WebUI.navigateToUrl(GlobalVariable.BecURL)
 
 WebUI.maximizeWindow()
 
+//User can verify that whether login page has loaded or not  
+'Verifying login page has loaded correctly\r\n'
+Assert.assertEquals(WebUI.getText(findTestObject('LoginPage/Header_homepage')), header_name)
+
+'Providing the Username'
 WebUI.setText(findTestObject('LoginPage/input_Username_username'), GlobalVariable.Bec_UserName)
 
+'Password to be provided in the text box'
 WebUI.setText(findTestObject('LoginPage/input_Password_password'), GlobalVariable.Bec_Password)
 
 WebUI.waitForElementClickable(findTestObject('LoginPage/Login_Button'), 2)
 
+'Clicking  the submit button '
 WebUI.click(findTestObject('LoginPage/Login_Button'))
 
 WebUI.waitForPageLoad(2)
@@ -42,7 +50,16 @@ WebUI.mouseOver(findTestObject('MessagesPage/Link_Commissions'))
 
 WebUI.scrollToElement(findTestObject('MessagesPage/Link_Commissions'), 1)
 
+'Clicking on Commissions link \r\n'
 WebUI.click(findTestObject('MessagesPage/Link_Commissions'))
+
+'Verifying the Username'
+WebUI.click(findTestObject('LoginPage/User_id'))
+
+WebUI.waitForElementVisible(findTestObject('LoginPage/user_name'), 1)
+
+'Verifying Commissions has loaded correctly'
+Assert.assertEquals(WebUI.getText(findTestObject('LoginPage/user_name')), User_name)
 
 WebUI.waitForPageLoad(3)
 

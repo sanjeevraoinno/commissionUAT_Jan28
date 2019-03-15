@@ -12,4 +12,18 @@
       <masked>false</masked>
       <name>TerritoryElementName</name>
    </variable>
+   <variable>
+      <defaultValue>'Compensation Elements'</defaultValue>
+      <description></description>
+      <id>1c4d5aab-1b36-491d-a58a-ab9993ca910c</id>
+      <masked>false</masked>
+      <name>Compensation_ele</name>
+   </variable>
+   <variable>
+      <defaultValue>'Territories'</defaultValue>
+      <description></description>
+      <id>81c28cf0-b3fe-4a5f-826d-c271255fb6e3</id>
+      <masked>false</masked>
+      <name>Territorytxt</name>
+   </variable>
 </TestCaseEntity>

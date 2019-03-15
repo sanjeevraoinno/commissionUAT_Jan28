@@ -12,4 +12,18 @@
       <masked>false</masked>
       <name>Quotas</name>
    </variable>
+   <variable>
+      <defaultValue>'Compensation Elements'</defaultValue>
+      <description></description>
+      <id>d145add3-dbe2-424a-933e-2867919d4f32</id>
+      <masked>false</masked>
+      <name>Compensation_ele</name>
+   </variable>
+   <variable>
+      <defaultValue>'Quotas'</defaultValue>
+      <description></description>
+      <id>dd6a2039-fdbb-45b1-953c-ca1803f8ae96</id>
+      <masked>false</masked>
+      <name>Quotastxt</name>
+   </variable>
 </TestCaseEntity>

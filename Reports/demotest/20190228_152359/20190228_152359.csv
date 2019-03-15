@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+demotest,Chrome 72.0.3626.119,,2019-02-28 15:24:07,2019-02-28 15:25:19,1m - 12.473s,PASSED
+,,,,,,
+Test Cases/Commission Login_Logout/Commission Login,Chrome 72.0.3626.119,,2019-02-28 15:24:08,2019-02-28 15:25:17,1m - 9.385s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 72.0.3626.119,,2019-02-28 15:24:08,2019-02-28 15:24:08,0.026s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.119,,2019-02-28 15:24:09,2019-02-28 15:24:17,8.124s,PASSED
+navigateToUrl(BecURL),Chrome 72.0.3626.119,,2019-02-28 15:24:17,2019-02-28 15:24:31,14.256s,PASSED
+maximizeWindow(),Chrome 72.0.3626.119,,2019-02-28 15:24:31,2019-02-28 15:24:33,2.178s,PASSED
+"Assert.assertEquals(getText(findTestObject(""LoginPage/Header_homepage"")), header_name)",Chrome 72.0.3626.119,,2019-02-28 15:24:33,2019-02-28 15:24:35,2.250s,PASSED
+"setText(findTestObject(""LoginPage/input_Username_username""), Bec_UserName)",Chrome 72.0.3626.119,,2019-02-28 15:24:35,2019-02-28 15:24:40,4.549s,PASSED
+"setText(findTestObject(""LoginPage/input_Password_password""), Bec_Password)",Chrome 72.0.3626.119,,2019-02-28 15:24:40,2019-02-28 15:24:44,4.256s,PASSED
+"waitForElementClickable(findTestObject(""LoginPage/Login_Button""), 2)",Chrome 72.0.3626.119,,2019-02-28 15:24:44,2019-02-28 15:24:46,2.217s,PASSED
+"click(findTestObject(""LoginPage/Login_Button""))",Chrome 72.0.3626.119,,2019-02-28 15:24:46,2019-02-28 15:24:49,2.147s,PASSED
+waitForPageLoad(2),Chrome 72.0.3626.119,,2019-02-28 15:24:49,2019-02-28 15:24:50,1.119s,PASSED
+"click(findTestObject(""MessagesPage/Icon_Apps""))",Chrome 72.0.3626.119,,2019-02-28 15:24:50,2019-02-28 15:24:53,3.645s,PASSED
+"mouseOver(findTestObject(""MessagesPage/Link_Commissions""))",Chrome 72.0.3626.119,,2019-02-28 15:24:53,2019-02-28 15:24:57,3.143s,PASSED
+"scrollToElement(findTestObject(""MessagesPage/Link_Commissions""), 1)",Chrome 72.0.3626.119,,2019-02-28 15:24:57,2019-02-28 15:24:59,2.089s,PASSED
+"click(findTestObject(""MessagesPage/Link_Commissions""))",Chrome 72.0.3626.119,,2019-02-28 15:24:59,2019-02-28 15:25:16,17.611s,PASSED
+waitForPageLoad(3),Chrome 72.0.3626.119,,2019-02-28 15:25:16,2019-02-28 15:25:17,1.021s,PASSED

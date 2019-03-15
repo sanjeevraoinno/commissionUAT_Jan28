@@ -26,4 +26,18 @@
       <masked>false</masked>
       <name>New_roll_type</name>
    </variable>
+   <variable>
+      <defaultValue>'Organization'</defaultValue>
+      <description></description>
+      <id>9de3095c-3339-424a-9328-c807cd54e7fb</id>
+      <masked>false</masked>
+      <name>ORG</name>
+   </variable>
+   <variable>
+      <defaultValue>'Relationships'</defaultValue>
+      <description></description>
+      <id>97501fbe-972f-42e0-a133-fc00b01e2449</id>
+      <masked>false</masked>
+      <name>Rel_txt</name>
+   </variable>
 </TestCaseEntity>

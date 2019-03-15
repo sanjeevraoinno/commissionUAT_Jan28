@@ -5,4 +5,18 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>e26a058b-0ce2-4e35-832e-a375441547c5</testCaseGuid>
+   <variable>
+      <defaultValue>'Plan Data'</defaultValue>
+      <description></description>
+      <id>a9d19763-fd47-4401-ba6a-48164be9e254</id>
+      <masked>false</masked>
+      <name>Plan_data</name>
+   </variable>
+   <variable>
+      <defaultValue>'Plans'</defaultValue>
+      <description></description>
+      <id>e1ba00f1-d68c-41a4-aff6-1405ecd7d7f1</id>
+      <masked>false</masked>
+      <name>Plan_txt</name>
+   </variable>
 </TestCaseEntity>

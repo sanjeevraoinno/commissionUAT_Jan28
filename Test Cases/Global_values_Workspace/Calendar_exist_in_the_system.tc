@@ -5,4 +5,18 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>42c7f4e6-dcb1-40d0-aecb-04196e1a4491</testCaseGuid>
+   <variable>
+      <defaultValue>'Global Values'</defaultValue>
+      <description></description>
+      <id>df7a9a8e-8c22-45b4-b1dc-598e64a25266</id>
+      <masked>false</masked>
+      <name>Global_val</name>
+   </variable>
+   <variable>
+      <defaultValue>'Calendars'</defaultValue>
+      <description></description>
+      <id>5e6592f8-5e83-4286-a4f8-ef5eaa0e5868</id>
+      <masked>false</masked>
+      <name>Calendartxt</name>
+   </variable>
 </TestCaseEntity>

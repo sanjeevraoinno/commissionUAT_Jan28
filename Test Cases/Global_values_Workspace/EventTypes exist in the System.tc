@@ -12,4 +12,18 @@
       <masked>false</masked>
       <name>eventTypeName</name>
    </variable>
+   <variable>
+      <defaultValue>'Global Values'</defaultValue>
+      <description></description>
+      <id>3cacba36-d52b-4d0c-909c-fa0b97031a4b</id>
+      <masked>false</masked>
+      <name>Global_val</name>
+   </variable>
+   <variable>
+      <defaultValue>'Event Types'</defaultValue>
+      <description></description>
+      <id>33ede6fd-06f4-43e4-a076-e94d66cb0b7b</id>
+      <masked>false</masked>
+      <name>ET_txt</name>
+   </variable>
 </TestCaseEntity>

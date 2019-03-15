@@ -12,4 +12,18 @@
       <masked>false</masked>
       <name>UserName</name>
    </variable>
+   <variable>
+      <defaultValue>'Security'</defaultValue>
+      <description></description>
+      <id>7063cccb-de58-4489-b5ef-2d2d2d85e70c</id>
+      <masked>false</masked>
+      <name>Sec_txt</name>
+   </variable>
+   <variable>
+      <defaultValue>'Users'</defaultValue>
+      <description></description>
+      <id>9d0dcbe0-df26-4ecb-af31-782309f5009c</id>
+      <masked>false</masked>
+      <name>User_txt</name>
+   </variable>
 </TestCaseEntity>

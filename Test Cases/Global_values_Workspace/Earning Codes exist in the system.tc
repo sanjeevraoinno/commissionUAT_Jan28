@@ -12,4 +12,18 @@
       <masked>false</masked>
       <name>earningCodeName</name>
    </variable>
+   <variable>
+      <defaultValue>'Global Values'</defaultValue>
+      <description></description>
+      <id>7ef1cb62-cb24-4215-aa4f-8525182ba108</id>
+      <masked>false</masked>
+      <name>Global_val</name>
+   </variable>
+   <variable>
+      <defaultValue>'Earning Codes'</defaultValue>
+      <description></description>
+      <id>fe5ddd26-7f86-49bd-bcd3-926e2b4d4b70</id>
+      <masked>false</masked>
+      <name>EC_txt</name>
+   </variable>
 </TestCaseEntity>

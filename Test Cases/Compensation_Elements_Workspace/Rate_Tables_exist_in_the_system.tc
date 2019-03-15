@@ -12,4 +12,18 @@
       <masked>false</masked>
       <name>Rate_table</name>
    </variable>
+   <variable>
+      <defaultValue>'Compensation Elements'</defaultValue>
+      <description></description>
+      <id>92467eba-c232-4cdf-ae27-dcb076b27948</id>
+      <masked>false</masked>
+      <name>Compensation_ele</name>
+   </variable>
+   <variable>
+      <defaultValue>'Rate Tables'</defaultValue>
+      <description></description>
+      <id>27057eab-723b-411c-ac9c-709038117014</id>
+      <masked>false</masked>
+      <name>Ratetabletxt</name>
+   </variable>
 </TestCaseEntity>

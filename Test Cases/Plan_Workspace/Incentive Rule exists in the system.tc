@@ -12,4 +12,18 @@
       <masked>false</masked>
       <name>Incentivies</name>
    </variable>
+   <variable>
+      <defaultValue>'Plan Data'</defaultValue>
+      <description></description>
+      <id>f7a33acc-1015-4632-b88a-7d8b40ee8e83</id>
+      <masked>false</masked>
+      <name>Plan_data</name>
+   </variable>
+   <variable>
+      <defaultValue>'Rules'</defaultValue>
+      <description></description>
+      <id>960fcc5a-ffe5-4fa2-92c1-380378c5cd11</id>
+      <masked>false</masked>
+      <name>Rules_txt</name>
+   </variable>
 </TestCaseEntity>

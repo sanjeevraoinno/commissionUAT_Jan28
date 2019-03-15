@@ -12,4 +12,18 @@
       <masked>false</masked>
       <name>LUP_Var</name>
    </variable>
+   <variable>
+      <defaultValue>'Compensation Elements'</defaultValue>
+      <description></description>
+      <id>2f86f539-ca9f-404f-89c3-6d489029c3ed</id>
+      <masked>false</masked>
+      <name>Compensation_ele</name>
+   </variable>
+   <variable>
+      <defaultValue>'Variables'</defaultValue>
+      <description></description>
+      <id>a183563e-a5e4-4387-b2b8-2543be43ed5b</id>
+      <masked>false</masked>
+      <name>Var_name</name>
+   </variable>
 </TestCaseEntity>

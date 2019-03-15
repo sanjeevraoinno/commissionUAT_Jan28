@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>User_id</name>
+   <tag></tag>
+   <elementGuidId>36e56a8a-c525-499a-a446-cbce8954f821</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//img[@src='/CallidusPortal/services/MyProfile/payeePicture']
+</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//img[@src='/CallidusPortal/services/MyProfile/payeePicture']
+</value>
+   </webElementProperties>
+</WebElementEntity>

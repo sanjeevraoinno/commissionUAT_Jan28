@@ -12,4 +12,18 @@
       <masked>false</masked>
       <name>PlanComponentName</name>
    </variable>
+   <variable>
+      <defaultValue>'Plan Data'</defaultValue>
+      <description></description>
+      <id>f5b3b004-78ff-419b-9200-859739c7f1ac</id>
+      <masked>false</masked>
+      <name>Plan_data</name>
+   </variable>
+   <variable>
+      <defaultValue>'Plan Components'</defaultValue>
+      <description></description>
+      <id>d379420a-ab47-436f-93ec-7ac07ac579e1</id>
+      <masked>false</masked>
+      <name>PC_txt</name>
+   </variable>
 </TestCaseEntity>

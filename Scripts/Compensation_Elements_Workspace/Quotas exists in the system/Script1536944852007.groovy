@@ -12,6 +12,9 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.junit.After as After
+import org.testng.Assert as Assert
+import org.testng.AssertJUnit as AssertJUnit
 
 WebUI.callTestCase(findTestCase('Commission Login_Logout/Commission Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -20,34 +23,53 @@ WebUI.mouseOver(findTestObject('HomePage_Commission/Commission_CompensationEleme
 WebUI.waitForElementPresent(findTestObject('HomePage_Commission/Commission_CompensationElements/Icon_Compensationelement'), 
     3)
 
+'Clicking on Compensation Elements icon'
 WebUI.click(findTestObject('HomePage_Commission/Commission_CompensationElements/Icon_Compensationelement'))
 
-println('User is able to naviagte to Plan tab')
+'Verifying the linktext of Compensation Elements'
+Assert.assertEquals(WebUI.getText(findTestObject('Assertion_objects/Compensation_elements')), Compensation_ele)
+
+println('User is able to navigate to Plan tab')
 
 WebUI.waitForElementVisible(findTestObject('HomePage_Commission/Commission_CompensationElements/Link_Quota'), 4)
 
 WebUI.mouseOver(findTestObject('HomePage_Commission/Commission_CompensationElements/Link_Quota'), FailureHandling.STOP_ON_FAILURE)
 
+'Clicking on Quotas link'
 WebUI.click(findTestObject('HomePage_Commission/Commission_CompensationElements/Link_Quota'))
 
-println('User Naviagted to Quotas screen')
+'Verifying the linktext of Quotas'
+Assert.assertEquals(WebUI.getText(findTestObject('Assertion_objects/Quotas')), Quotastxt)
 
-WebUI.click(findTestObject('AdvanceSearch_Page/Icon_Advanced Search'))
+println('User Navigated to Quotas screen')
 
+'Clicking on advance search icon if given condition gets passed'
+if (WebUI.verifyElementClickable(findTestObject('AdvanceSearch_Page/Advanced_searchtext'))) {
+    WebUI.click(findTestObject('AdvanceSearch_Page/Icon_Advanced Search'))
+
+    println('Performing advance search')
+} else {
+    println('Failed to perform advance search')
+}
+
+'Clicking on fieldname text box'
 WebUI.click(findTestObject('AdvanceSearch_Page/FieldName_DropDown'))
 
 WebUI.scrollToElement(findTestObject('AdvanceSearch_Page/option_QuotaName'), 4)
 
 WebUI.click(findTestObject('AdvanceSearch_Page/option_QuotaName'))
 
+'Clicking on comparision text box'
 WebUI.click(findTestObject('AdvanceSearch_Page/td_Comparision'))
 
 WebUI.scrollToElement(findTestObject('AdvanceSearch_Page/option_Equals'), 2)
 
+'Selecting the equal icon'
 WebUI.click(findTestObject('AdvanceSearch_Page/option_Equals'))
 
 WebUI.setText(findTestObject('AdvanceSearch_Page/td_Value'), Quotas)
 
+'Clicking on Apply Search button'
 WebUI.click(findTestObject('AdvanceSearch_Page/AppySearch_button'))
 
 CustomKeywords.'globalkeywords.record.RecordNotFound'()

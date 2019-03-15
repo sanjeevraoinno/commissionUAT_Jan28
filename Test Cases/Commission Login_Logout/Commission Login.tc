@@ -5,4 +5,18 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>ea96b448-7ddc-4f70-a335-c00fe184b5d3</testCaseGuid>
+   <variable>
+      <defaultValue>'Sales Performance Home '</defaultValue>
+      <description></description>
+      <id>3227a5e0-51ad-4b2f-9d6a-35f28e19ec65</id>
+      <masked>false</masked>
+      <name>header_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'rkulkarn@calliduscloud.com'</defaultValue>
+      <description></description>
+      <id>f01b6710-18ea-4618-92ee-829925bda74c</id>
+      <masked>false</masked>
+      <name>User_name</name>
+   </variable>
 </TestCaseEntity>

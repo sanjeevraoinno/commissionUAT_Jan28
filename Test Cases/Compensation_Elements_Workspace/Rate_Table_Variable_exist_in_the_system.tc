@@ -12,4 +12,18 @@
       <masked>false</masked>
       <name>R_T_Var</name>
    </variable>
+   <variable>
+      <defaultValue>'Compensation Elements'</defaultValue>
+      <description></description>
+      <id>c2c166d6-3d1e-48db-8c45-165be5091c90</id>
+      <masked>false</masked>
+      <name>Compensation_ele</name>
+   </variable>
+   <variable>
+      <defaultValue>'Variables'</defaultValue>
+      <description></description>
+      <id>57bded32-5ba9-4716-96b9-ff9a6d45eb7d</id>
+      <masked>false</masked>
+      <name>Varaiabletxt</name>
+   </variable>
 </TestCaseEntity>

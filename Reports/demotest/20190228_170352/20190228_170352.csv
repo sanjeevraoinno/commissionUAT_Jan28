@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+demotest,Chrome 72.0.3626.119,,2019-02-28 17:04:01,2019-02-28 17:05:47,1m - 46.467s,PASSED
+,,,,,,
+Test Cases/Commission Login_Logout/Commission Login,Chrome 72.0.3626.119,,2019-02-28 17:04:02,2019-02-28 17:05:45,1m - 43.248s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 72.0.3626.119,,2019-02-28 17:04:02,2019-02-28 17:04:02,0.188s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.119,,2019-02-28 17:04:03,2019-02-28 17:04:12,8.363s,PASSED
+navigateToUrl(BecURL),Chrome 72.0.3626.119,,2019-02-28 17:04:12,2019-02-28 17:04:26,14.402s,PASSED
+maximizeWindow(),Chrome 72.0.3626.119,,2019-02-28 17:04:26,2019-02-28 17:04:28,2.199s,PASSED
+"Assert.assertEquals(getText(findTestObject(""LoginPage/Header_homepage"")), header_name)",Chrome 72.0.3626.119,User can verify that whether login page has loaded or not,2019-02-28 17:04:28,2019-02-28 17:04:31,2.285s,PASSED
+"setText(findTestObject(""LoginPage/input_Username_username""), Bec_UserName)",Chrome 72.0.3626.119,,2019-02-28 17:04:31,2019-02-28 17:04:35,4.549s,PASSED
+"setText(findTestObject(""LoginPage/input_Password_password""), Bec_Password)",Chrome 72.0.3626.119,,2019-02-28 17:04:35,2019-02-28 17:04:40,4.414s,PASSED
+"waitForElementClickable(findTestObject(""LoginPage/Login_Button""), 2)",Chrome 72.0.3626.119,,2019-02-28 17:04:40,2019-02-28 17:04:42,2.125s,PASSED
+"click(findTestObject(""LoginPage/Login_Button""))",Chrome 72.0.3626.119,,2019-02-28 17:04:42,2019-02-28 17:04:44,2.226s,PASSED
+waitForPageLoad(2),Chrome 72.0.3626.119,,2019-02-28 17:04:44,2019-02-28 17:04:45,1.103s,PASSED
+"click(findTestObject(""MessagesPage/Icon_Apps""))",Chrome 72.0.3626.119,,2019-02-28 17:04:45,2019-02-28 17:04:50,5.302s,PASSED
+"mouseOver(findTestObject(""MessagesPage/Link_Commissions""))",Chrome 72.0.3626.119,,2019-02-28 17:04:50,2019-02-28 17:04:54,3.196s,PASSED
+"scrollToElement(findTestObject(""MessagesPage/Link_Commissions""), 1)",Chrome 72.0.3626.119,,2019-02-28 17:04:54,2019-02-28 17:04:56,2.081s,PASSED
+"click(findTestObject(""MessagesPage/Link_Commissions""))",Chrome 72.0.3626.119,,2019-02-28 17:04:56,2019-02-28 17:05:38,41.974s,PASSED
+"click(findTestObject(""LoginPage/User_id""))",Chrome 72.0.3626.119,,2019-02-28 17:05:38,2019-02-28 17:05:40,2.226s,PASSED
+"waitForElementVisible(findTestObject(""LoginPage/user_name""), 1)",Chrome 72.0.3626.119,,2019-02-28 17:05:40,2019-02-28 17:05:42,2.147s,PASSED
+"Assert.assertEquals(getText(findTestObject(""LoginPage/user_name"")), User_name)",Chrome 72.0.3626.119,"User can verify that whether commissions home page has loaded or not
+",2019-02-28 17:05:42,2019-02-28 17:05:44,2.169s,PASSED
+waitForPageLoad(3),Chrome 72.0.3626.119,,2019-02-28 17:05:44,2019-02-28 17:05:45,1.015s,PASSED

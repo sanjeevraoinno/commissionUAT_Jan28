@@ -12,4 +12,18 @@
       <masked>false</masked>
       <name>EarningGroupName</name>
    </variable>
+   <variable>
+      <defaultValue>'Global Values'</defaultValue>
+      <description></description>
+      <id>f8b63423-a90f-4098-8a65-162360718c91</id>
+      <masked>false</masked>
+      <name>Global_val</name>
+   </variable>
+   <variable>
+      <defaultValue>'Earning Groups'</defaultValue>
+      <description></description>
+      <id>e1892726-f6a8-4e36-9e04-1d2741b18996</id>
+      <masked>false</masked>
+      <name>EG_txt</name>
+   </variable>
 </TestCaseEntity>

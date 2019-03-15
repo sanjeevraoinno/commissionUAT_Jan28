@@ -12,4 +12,18 @@
       <masked>false</masked>
       <name>FV_Var</name>
    </variable>
+   <variable>
+      <defaultValue>'Compensation Elements'</defaultValue>
+      <description></description>
+      <id>641c81ed-68d9-462a-bc2f-da81f151542c</id>
+      <masked>false</masked>
+      <name>Compensation_ele</name>
+   </variable>
+   <variable>
+      <defaultValue>'Variables'</defaultValue>
+      <description></description>
+      <id>26fa0d92-1c87-46bd-8f16-e89d617166f7</id>
+      <masked>false</masked>
+      <name>Var_name</name>
+   </variable>
 </TestCaseEntity>

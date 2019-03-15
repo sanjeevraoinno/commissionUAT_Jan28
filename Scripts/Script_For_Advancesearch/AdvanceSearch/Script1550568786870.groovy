@@ -17,8 +17,16 @@ WebUI.waitForPageLoad(5)
 
 WebUI.scrollToPosition(0, 0)
 
-WebUI.click(findTestObject('AdvanceSearch_Page/Icon_Advanced Search'))
+'Clicking on advance search icon if given condition gets passed\r\n'
+if (WebUI.verifyElementClickable(findTestObject('AdvanceSearch_Page/Advanced_searchtext'))) {
+    WebUI.click(findTestObject('AdvanceSearch_Page/Icon_Advanced Search'))
 
+    println('Performing advance search')
+} else {
+    println('Failed to perform advance search')
+}
+
+'Clicking on fieldname text box\r\n'
 WebUI.waitForElementVisible(findTestObject('AdvanceSearch_Page/FieldName_DropDown'), 2)
 
 WebUI.click(findTestObject('AdvanceSearch_Page/FieldName_DropDown'))
@@ -29,6 +37,7 @@ WebUI.waitForElementClickable(findTestObject('AdvanceSearch_Page/option_Value'),
 
 WebUI.click(findTestObject('AdvanceSearch_Page/option_Value'))
 
+'Clicking on comparision text box\r\n'
 WebUI.click(findTestObject('AdvanceSearch_Page/td_Comparision'))
 
 WebUI.waitForElementVisible(findTestObject('AdvanceSearch_Page/option_Equals'), 2)
@@ -37,6 +46,7 @@ WebUI.scrollToElement(findTestObject('AdvanceSearch_Page/option_Equals'), 2)
 
 WebUI.waitForElementClickable(findTestObject('AdvanceSearch_Page/option_Equals'), 2)
 
+'Selecting the equal icon \r\n'
 WebUI.click(findTestObject('AdvanceSearch_Page/option_Equals'))
 
 WebUI.waitForElementClickable(findTestObject('AdvanceSearch_Page/td_Value'), 5)
@@ -49,5 +59,6 @@ WebUI.waitForElementClickable(findTestObject('AdvanceSearch_Page/AppySearch_butt
 
 WebUI.click(findTestObject('AdvanceSearch_Page/AppySearch_button'))
 
+'Clicking on Apply Search button'
 CustomKeywords.'globalkeywords.record.RecordNotFound'()
 

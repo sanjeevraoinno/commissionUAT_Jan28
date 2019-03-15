@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="demotest" time="106" tests="1" failures="0" errors="0">
+   <testsuite name="demotest" tests="1" failures="0" errors="0" time="106" timestamp="2019-02-28 17:04:01" hostname="rkulkarn - 41XHMV1-E6330.callidussoftware.com" id="Test Suites/demotest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rkulkarn\\git\\commissionUAT_Jan28\\Reports\\demotest\\20190228_170352"/>
+         <property name="logFiles" value="C:\\Users\\rkulkarn\\git\\commissionUAT_Jan28\\Reports\\demotest\\20190228_170352\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rkulkarn - 41XHMV1-E6330.callidussoftware.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 72.0.3626.119"/>
+         <property name="hostAddress" value="192.168.237.143"/>
+         <property name="sessionId" value="e83228eb828f3c5246011bc66286b8d1"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Commission Login_Logout/Commission Login" classname="Test Cases/Commission Login_Logout/Commission Login" status="PASSED">
+         <system-out><![CDATA[2019-02-28 17:04:02 - [TEST_CASE][PASSED] - Test Cases/Commission Login_Logout/Commission Login: Test Cases/Commission Login_Logout/Commission Login
+
+2019-02-28 17:04:02 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-02-28 17:04:02 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-02-28 17:04:02 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-02-28 17:04:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-02-28 17:04:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-28 17:04:04 - [MESSAGE][INFO] - Action delay is set to 1 seconds
+
+2019-02-28 17:04:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-28 17:04:12 - [TEST_STEP][PASSED] - navigateToUrl(BecURL): Navigate to 'https://biz3-tst.callidusondemand.com/SalesPortal/#!/' successfully
+
+2019-02-28 17:04:26 - [MESSAGE][PASSED] - Navigate to 'https://biz3-tst.callidusondemand.com/SalesPortal/#!/' successfully
+
+2019-02-28 17:04:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-02-28 17:04:28 - [MESSAGE][PASSED] - Current window maximized
+
+2019-02-28 17:04:28 - [TEST_STEP][PASSED] - Assert.assertEquals(getText(findTestObject("LoginPage/Header_homepage")), header_name): Text of object 'Object Repository/LoginPage/Header_homepage' is: 'Sales Performance Home '
+
+2019-02-28 17:04:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/LoginPage/Header_homepage' is: 'Sales Performance Home '
+
+2019-02-28 17:04:31 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/input_Username_username"), Bec_UserName): Text 'rkulkarn@calliduscloud.com' is set on object 'Object Repository/LoginPage/input_Username_username'
+
+2019-02-28 17:04:35 - [MESSAGE][PASSED] - Text 'rkulkarn@calliduscloud.com' is set on object 'Object Repository/LoginPage/input_Username_username'
+
+2019-02-28 17:04:35 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/input_Password_password"), Bec_Password): Text 'Augg@1234' is set on object 'Object Repository/LoginPage/input_Password_password'
+
+2019-02-28 17:04:40 - [MESSAGE][PASSED] - Text 'Augg@1234' is set on object 'Object Repository/LoginPage/input_Password_password'
+
+2019-02-28 17:04:40 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("LoginPage/Login_Button"), 2): Object 'Object Repository/LoginPage/Login_Button' is clickable
+
+2019-02-28 17:04:42 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/Login_Button' is clickable
+
+2019-02-28 17:04:42 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/Login_Button")): Object: 'Object Repository/LoginPage/Login_Button' is clicked on
+
+2019-02-28 17:04:44 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/Login_Button' is clicked on
+
+2019-02-28 17:04:44 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2019-02-28 17:04:45 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-02-28 17:04:45 - [TEST_STEP][PASSED] - click(findTestObject("MessagesPage/Icon_Apps")): Object: 'Object Repository/MessagesPage/Icon_Apps' is clicked on
+
+2019-02-28 17:04:50 - [MESSAGE][PASSED] - Object: 'Object Repository/MessagesPage/Icon_Apps' is clicked on
+
+2019-02-28 17:04:50 - [TEST_STEP][PASSED] - mouseOver(findTestObject("MessagesPage/Link_Commissions")): Object: 'Object Repository/MessagesPage/Link_Commissions' is hovered
+
+2019-02-28 17:04:54 - [MESSAGE][PASSED] - Object: 'Object Repository/MessagesPage/Link_Commissions' is hovered
+
+2019-02-28 17:04:54 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("MessagesPage/Link_Commissions"), 1): Scroll to object 'Object Repository/MessagesPage/Link_Commissions' successfully
+
+2019-02-28 17:04:56 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/MessagesPage/Link_Commissions' successfully
+
+2019-02-28 17:04:56 - [TEST_STEP][PASSED] - click(findTestObject("MessagesPage/Link_Commissions")): Object: 'Object Repository/MessagesPage/Link_Commissions' is clicked on
+
+2019-02-28 17:05:38 - [MESSAGE][PASSED] - Object: 'Object Repository/MessagesPage/Link_Commissions' is clicked on
+
+2019-02-28 17:05:38 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/User_id")): Object: 'Object Repository/LoginPage/User_id' is clicked on
+
+2019-02-28 17:05:40 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/User_id' is clicked on
+
+2019-02-28 17:05:40 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("LoginPage/user_name"), 1): Object 'Object Repository/LoginPage/user_name' is visible
+
+2019-02-28 17:05:42 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/user_name' is visible
+
+2019-02-28 17:05:42 - [TEST_STEP][PASSED] - Assert.assertEquals(getText(findTestObject("LoginPage/user_name")), User_name): Text of object 'Object Repository/LoginPage/user_name' is: 'rkulkarn@calliduscloud.com'
+
+2019-02-28 17:05:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/LoginPage/user_name' is: 'rkulkarn@calliduscloud.com'
+
+2019-02-28 17:05:44 - [TEST_STEP][PASSED] - waitForPageLoad(3): Wait for page load successfully
+
+2019-02-28 17:05:45 - [MESSAGE][PASSED] - Wait for page load successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-28 17:04:01 - [TEST_SUITE][PASSED] - demotest: Test Cases/Commission Login_Logout/Commission Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

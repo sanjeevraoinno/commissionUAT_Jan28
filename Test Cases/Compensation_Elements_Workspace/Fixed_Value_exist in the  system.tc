@@ -12,4 +12,18 @@
       <masked>false</masked>
       <name>FIX_VAL</name>
    </variable>
+   <variable>
+      <defaultValue>'Compensation Elements'</defaultValue>
+      <description></description>
+      <id>9463e630-892d-48b5-8ead-d8bd5719c4c4</id>
+      <masked>false</masked>
+      <name>Compensation_ele</name>
+   </variable>
+   <variable>
+      <defaultValue>'Fixed Values'</defaultValue>
+      <description></description>
+      <id>9829c949-1e6a-4703-8d19-a55a6dc57a4d</id>
+      <masked>false</masked>
+      <name>FV_Name</name>
+   </variable>
 </TestCaseEntity>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="demotest" time="112" tests="0" failures="1" errors="0">
+   <testsuite name="demotest" tests="0" failures="1" errors="0" time="112" timestamp="2019-02-28 15:55:02" hostname="rkulkarn - 41XHMV1-E6330.callidussoftware.com" id="Test Suites/demotest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rkulkarn\\git\\commissionUAT_Jan28\\Reports\\demotest\\20190228_155454"/>
+         <property name="logFiles" value="C:\\Users\\rkulkarn\\git\\commissionUAT_Jan28\\Reports\\demotest\\20190228_155454\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\rkulkarn\\git\\commissionUAT_Jan28\\Reports\\demotest\\20190228_155454\\1551349611014.png"/>
+         <property name="hostName" value="rkulkarn - 41XHMV1-E6330.callidussoftware.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 72.0.3626.119"/>
+         <property name="hostAddress" value="192.168.241.8"/>
+         <property name="sessionId" value="3eb09ea9df166d51cabacd4182e0ad41"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Commission Login_Logout/Commission Login" classname="Test Cases/Commission Login_Logout/Commission Login" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Commission Login_Logout/Commission Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/LoginPage/User_id' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoginPage/User_id' located by 'By.xpath: //a[@href='/SalesPortal/#!/accountSettings']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$2.call(Unknown Source)
+	at Commission Login.run(Commission Login:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551349494020.run(TempTestSuite1551349494020.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-28 15:55:03 - [TEST_CASE][FAILED] - Test Cases/Commission Login_Logout/Commission Login: Test Cases/Commission Login_Logout/Commission Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/LoginPage/User_id' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoginPage/User_id' located by 'By.xpath: //a[@href='/SalesPortal/#!/accountSettings']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$2.call(Unknown Source)
+	at Commission Login.run(Commission Login:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551349494020.run(TempTestSuite1551349494020.groovy:36)
+
+
+2019-02-28 15:55:03 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-02-28 15:55:03 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-02-28 15:55:03 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-02-28 15:55:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-02-28 15:55:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-28 15:55:05 - [MESSAGE][INFO] - Action delay is set to 1 seconds
+
+2019-02-28 15:55:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-28 15:55:12 - [TEST_STEP][PASSED] - navigateToUrl(BecURL): Navigate to 'https://biz3-tst.callidusondemand.com/SalesPortal/#!/' successfully
+
+2019-02-28 15:55:31 - [MESSAGE][PASSED] - Navigate to 'https://biz3-tst.callidusondemand.com/SalesPortal/#!/' successfully
+
+2019-02-28 15:55:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-02-28 15:55:33 - [MESSAGE][PASSED] - Current window maximized
+
+2019-02-28 15:55:33 - [TEST_STEP][PASSED] - Assert.assertEquals(getText(findTestObject("LoginPage/Header_homepage")), header_name): Text of object 'Object Repository/LoginPage/Header_homepage' is: 'Sales Performance Home '
+
+2019-02-28 15:55:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/LoginPage/Header_homepage' is: 'Sales Performance Home '
+
+2019-02-28 15:55:35 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/input_Username_username"), Bec_UserName): Text 'rkulkarn@calliduscloud.com' is set on object 'Object Repository/LoginPage/input_Username_username'
+
+2019-02-28 15:55:40 - [MESSAGE][PASSED] - Text 'rkulkarn@calliduscloud.com' is set on object 'Object Repository/LoginPage/input_Username_username'
+
+2019-02-28 15:55:40 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/input_Password_password"), Bec_Password): Text 'Augg@1234' is set on object 'Object Repository/LoginPage/input_Password_password'
+
+2019-02-28 15:55:44 - [MESSAGE][PASSED] - Text 'Augg@1234' is set on object 'Object Repository/LoginPage/input_Password_password'
+
+2019-02-28 15:55:44 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("LoginPage/Login_Button"), 2): Object 'Object Repository/LoginPage/Login_Button' is clickable
+
+2019-02-28 15:55:46 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/Login_Button' is clickable
+
+2019-02-28 15:55:46 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/Login_Button")): Object: 'Object Repository/LoginPage/Login_Button' is clicked on
+
+2019-02-28 15:55:48 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/Login_Button' is clicked on
+
+2019-02-28 15:55:48 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2019-02-28 15:55:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-02-28 15:55:50 - [TEST_STEP][PASSED] - click(findTestObject("MessagesPage/Icon_Apps")): Object: 'Object Repository/MessagesPage/Icon_Apps' is clicked on
+
+2019-02-28 15:55:53 - [MESSAGE][PASSED] - Object: 'Object Repository/MessagesPage/Icon_Apps' is clicked on
+
+2019-02-28 15:55:53 - [TEST_STEP][PASSED] - mouseOver(findTestObject("MessagesPage/Link_Commissions")): Object: 'Object Repository/MessagesPage/Link_Commissions' is hovered
+
+2019-02-28 15:55:56 - [MESSAGE][PASSED] - Object: 'Object Repository/MessagesPage/Link_Commissions' is hovered
+
+2019-02-28 15:55:56 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("MessagesPage/Link_Commissions"), 1): Scroll to object 'Object Repository/MessagesPage/Link_Commissions' successfully
+
+2019-02-28 15:55:58 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/MessagesPage/Link_Commissions' successfully
+
+2019-02-28 15:55:58 - [TEST_STEP][PASSED] - click(findTestObject("MessagesPage/Link_Commissions")): Object: 'Object Repository/MessagesPage/Link_Commissions' is clicked on
+
+2019-02-28 15:56:20 - [MESSAGE][PASSED] - Object: 'Object Repository/MessagesPage/Link_Commissions' is clicked on
+
+2019-02-28 15:56:20 - [TEST_STEP][FAILED] - Assert.assertEquals(getText(findTestObject("LoginPage/User_id")), User_id): Assert.assertEquals(getText(findTestObject("LoginPage/User_id")), User_id) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/LoginPage/User_id' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoginPage/User_id' located by 'By.xpath: //a[@href='/SalesPortal/#!/accountSettings']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$2.call(Unknown Source)
+	at Commission Login.run(Commission Login:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551349494020.run(TempTestSuite1551349494020.groovy:36)
+
+
+2019-02-28 15:56:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@href='/SalesPortal/#!/accountSettings']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-02-28 15:56:52 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/LoginPage/User_id' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoginPage/User_id' located by 'By.xpath: //a[@href='/SalesPortal/#!/accountSettings']' not found)
+[[ATTACHMENT|C:\\Users\\rkulkarn\\git\\commissionUAT_Jan28\\Reports\\demotest\\20190228_155454\\1551349611014.png]]
+
+2019-02-28 15:56:52 - [MESSAGE][FAILED] - Assert.assertEquals(getText(findTestObject("LoginPage/User_id")), User_id) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/LoginPage/User_id' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoginPage/User_id' located by 'By.xpath: //a[@href='/SalesPortal/#!/accountSettings']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$2.call(Unknown Source)
+	at Commission Login.run(Commission Login:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551349494020.run(TempTestSuite1551349494020.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-02-28 15:55:03 - [TEST_CASE][FAILED] - Test Cases/Commission Login_Logout/Commission Login: Test Cases/Commission Login_Logout/Commission Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/LoginPage/User_id' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoginPage/User_id' located by 'By.xpath: //a[@href='/SalesPortal/#!/accountSettings']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$2.call(Unknown Source)
+	at Commission Login.run(Commission Login:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551349494020.run(TempTestSuite1551349494020.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-28 15:55:02 - [TEST_SUITE][FAILED] - demotest: Test Cases/Commission Login_Logout/Commission Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/LoginPage/User_id' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoginPage/User_id' located by 'By.xpath: //a[@href='/SalesPortal/#!/accountSettings']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$2.call(Unknown Source)
+	at Commission Login.run(Commission Login:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551349494020.run(TempTestSuite1551349494020.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-02-28 15:55:02 - [TEST_SUITE][FAILED] - demotest: Test Cases/Commission Login_Logout/Commission Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/LoginPage/User_id' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoginPage/User_id' located by 'By.xpath: //a[@href='/SalesPortal/#!/accountSettings']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$2.call(Unknown Source)
+	at Commission Login.run(Commission Login:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551349494020.run(TempTestSuite1551349494020.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

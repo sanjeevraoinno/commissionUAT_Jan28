@@ -12,4 +12,18 @@
       <masked>false</masked>
       <name>Lookupvar</name>
    </variable>
+   <variable>
+      <defaultValue>'Compensation Elements'</defaultValue>
+      <description></description>
+      <id>182c6b7e-9a09-492e-b00b-928edbc298d5</id>
+      <masked>false</masked>
+      <name>Compensation_ele</name>
+   </variable>
+   <variable>
+      <defaultValue>'Lookup Tables'</defaultValue>
+      <description></description>
+      <id>d4d4bc9f-f6e7-445e-8591-0da072058e4e</id>
+      <masked>false</masked>
+      <name>Lookup_name</name>
+   </variable>
 </TestCaseEntity>

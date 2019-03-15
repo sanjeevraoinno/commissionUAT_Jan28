@@ -12,4 +12,18 @@
       <masked>false</masked>
       <name>PID</name>
    </variable>
+   <variable>
+      <defaultValue>'Organization'</defaultValue>
+      <description></description>
+      <id>a0e026dc-55a3-479c-8e2b-bd9f20e23bc4</id>
+      <masked>false</masked>
+      <name>ORG</name>
+   </variable>
+   <variable>
+      <defaultValue>'Participants'</defaultValue>
+      <description></description>
+      <id>3bca68da-6b4d-4983-ad49-ce7430d870a1</id>
+      <masked>false</masked>
+      <name>Part_txt</name>
+   </variable>
 </TestCaseEntity>

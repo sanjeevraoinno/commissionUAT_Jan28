@@ -20,6 +20,7 @@ import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import org.junit.After as After
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import org.testng.Assert as Assert
 
 WebUI.callTestCase(findTestCase('Commission Login_Logout/Commission Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -29,16 +30,26 @@ WebUI.mouseOver(findTestObject('HomePage_Commission/Commission_Globalvalues/Icon
 
 WebUI.waitForElementPresent(findTestObject('HomePage_Commission/Commission_Globalvalues/Icon_GlobalValues'), 7)
 
+'Clicking on Global Values icon'
 WebUI.click(findTestObject('HomePage_Commission/Commission_Globalvalues/Icon_GlobalValues'))
+
+'Verifying the linktext of Global Values'
+Assert.assertEquals(WebUI.getText(findTestObject('Assertion_objects/Global_values')), Global_val)
 
 WebUI.waitForElementVisible(findTestObject('HomePage_Commission/Commission_Globalvalues/Link_Calendar'), 1)
 
 WebUI.mouseOver(findTestObject('HomePage_Commission/Commission_Globalvalues/Link_Calendar'), FailureHandling.STOP_ON_FAILURE)
 
+'Clicking on Calendars icon'
 WebUI.click(findTestObject('HomePage_Commission/Commission_Globalvalues/Link_Calendar'))
 
+'Verifying the linktext of Calendars '
+Assert.assertEquals(WebUI.getText(findTestObject('Assertion_objects/Calendar')), Calendartxt)
+
+'Verifying Main monthly calendar is Present'
 if (WebUI.verifyTextPresent('Main Monthly Calendar', true)) {
-    System.out.println('Able to find the record') // WebUI.callTestCase(findTestCase('Commission Login_Logout/Commission Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+    System.out.println('Able to find the record' // WebUI.callTestCase(findTestCase('Commission Login_Logout/Commission Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+        )
 } else {
     System.out.println('No Records Found')
 }

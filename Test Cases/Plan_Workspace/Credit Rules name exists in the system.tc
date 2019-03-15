@@ -12,4 +12,18 @@
       <masked>false</masked>
       <name>RuleName</name>
    </variable>
+   <variable>
+      <defaultValue>'Plan Data'</defaultValue>
+      <description></description>
+      <id>2a0525df-a0f0-4cca-8866-18e079ef41a0</id>
+      <masked>false</masked>
+      <name>Plan_data</name>
+   </variable>
+   <variable>
+      <defaultValue>'Rules'</defaultValue>
+      <description></description>
+      <id>395258b6-d2a9-4a3a-8c5a-c389d95ccb63</id>
+      <masked>false</masked>
+      <name>Rules_txt</name>
+   </variable>
 </TestCaseEntity>
